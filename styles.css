@@ -844,6 +844,11 @@ body.modal-open {
   border-bottom: 1px solid #f1f5f9;
 }
 
+.glossary-term .glossary-morph-term {
+  display: inline;
+  text-align: left;
+}
+
 @media (max-width: 640px) {
   .glossary-list {
     columns: 1;

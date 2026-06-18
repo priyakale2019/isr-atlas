@@ -25,16 +25,25 @@
 
   const ALIASES = [
     ["sterile abscess", "abscess"],
+    ["abscess sterile", "abscess"],
     ["ulceration", "ulcer"],
     ["phlebitis", "phlebitis"],
+    ["thrombophlebitis", "phlebitis"],
     ["erythema", "erythema"],
     ["redness", "erythema"],
+    ["joint erythema", "erythema"],
+    ["joint redness", "erythema"],
+    ["vascular redness", "erythema"],
     ["necrosis", "necrosis"],
+    ["fat necrosis", "necrosis"],
     ["edema", "edema"],
     ["swelling", "edema"],
+    ["joint swelling", "edema"],
     ["induration", "induration"],
+    ["painful induration", "induration"],
     ["abscess", "abscess"],
     ["ecchymosis", "ecchymosis"],
+    ["bruising", "ecchymosis"],
     ["macule", "macule"],
     ["patch", "patch"],
     ["papule", "papule"],
@@ -43,8 +52,51 @@
     ["ulcer", "ulcer"],
     ["pustule", "pustule"],
     ["vesicle", "vesicle"],
+    ["vesicles", "vesicle"],
+    ["blisters", "vesicle"],
     ["bulla", "bulla"],
+    ["atrophy", "atrophy"],
+    ["fat atrophy", "atrophy"],
+    ["muscle atrophy", "atrophy"],
+    ["lipoatrophy", "atrophy"],
+    ["crust", "crust"],
+    ["scab", "crust"],
+    ["scabbing", "crust"],
+    ["erosion", "erosion"],
+    ["scar", "scar"],
+    ["drainage", "drainage"],
+    ["leaking", "drainage"],
+    ["hyperpigmentation", "hyperpigmentation"],
+    ["hypopigmentation", "hypopigmentation"],
+    ["discoloration", "color"],
+    ["pigmentation changes", "color"],
+    ["coloration", "color"],
+    ["annular", "annular"],
   ].filter(([_, id]) => lesionById.has(id));
+
+  const lesionIdsByLength = [...lesionById.keys()].sort((a, b) => b.length - a.length);
+
+  function resolveLesionId(phrase) {
+    const key = phrase.trim().toLowerCase();
+    if (!key) return null;
+
+    if (lesionById.has(key)) return key;
+
+    for (const [alias, id] of ALIASES) {
+      if (key === alias.toLowerCase()) return id;
+    }
+
+    for (const entry of lesionById.values()) {
+      if (entry.term?.toLowerCase() === key) return entry.id;
+    }
+
+    for (const id of lesionIdsByLength) {
+      const re = new RegExp(`\\b${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+      if (re.test(key)) return id;
+    }
+
+    return null;
+  }
 
   const patterns = ALIASES.map(([phrase, id]) => ({
     re: new RegExp(`\\b(${phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})\\b`, "gi"),
@@ -194,5 +246,5 @@
     });
   }
 
-  window.MORPH_LINKS = { linkMorphologyTerms, bindTermInteractions, escapeHtml };
+  window.MORPH_LINKS = { linkMorphologyTerms, bindTermInteractions, escapeHtml, resolveLesionId };
 })();

@@ -47,6 +47,7 @@
             <p class="section-intro">
               Preferred terms and linked hierarchy labels from the MedDRA search export (columns B and D), with
               “injection site” removed; case-insensitive duplicates removed; British spellings merged to American.
+              Terms that match atlas morphology show a photo and definition on hover—click to open the lesion card.
             </p>
           </header>
           <div class="glossary-toolbar">
@@ -66,7 +67,17 @@
       </section>
     </main>
 
+    <div id="morph-popover" class="morph-popover" role="tooltip" hidden>
+      <img class="morph-popover-img" src="" alt="" />
+      <div class="morph-popover-body">
+        <p class="morph-popover-term"></p>
+        <p class="morph-popover-def"></p>
+      </div>
+    </div>
+
+    <script src="data/lesions.js"></script>
     <script src="data/glossary.js"></script>
+    <script src="morph-links.js"></script>
     <script src="glossary.js" defer></script>
   </body>
 </html>
