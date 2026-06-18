@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MedDRA glossary — Injection Site Reactions</title>
+    <meta name="description" content="MedDRA PT and LLT glossary terms for injection site reactions." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-atlas-home="index.html">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <div>
+            <p class="eyebrow">Clinical education</p>
+            <h1 class="site-title"><a class="site-title-link" href="index.html">Injection site reactions</a></h1>
+            <p class="site-subtitle">MedDRA glossary</p>
+          </div>
+        </div>
+        <nav class="header-nav" aria-label="Primary">
+          <a href="index.html#framework">Evaluation</a>
+          <a href="index.html#primary">Primary lesions</a>
+          <a href="index.html#secondary">Secondary lesions</a>
+          <a href="index.html#template">Documentation</a>
+          <a href="daids.html">DAIDS criteria</a>
+          <a href="ctcae.html">CTCAE</a>
+          <a href="fda.html">FDA grading</a>
+          <a href="glossary.html" aria-current="page">Glossary</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="grading-page">
+      <section class="section">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="grading-back"><a href="index.html">← Back to atlas</a></p>
+            <h2>MedDRA glossary</h2>
+            <p class="section-intro">
+              Preferred terms and linked hierarchy labels from the MedDRA search export (columns B and D), with
+              “injection site” removed; case-insensitive duplicates removed; British spellings merged to American.
+            </p>
+          </header>
+          <div class="glossary-toolbar">
+            <label class="glossary-search-label" for="glossary-search">Filter terms</label>
+            <input
+              id="glossary-search"
+              class="glossary-search"
+              type="search"
+              placeholder="Type to filter…"
+              autocomplete="off"
+            />
+            <p id="glossary-count" class="glossary-count" aria-live="polite"></p>
+          </div>
+          <ul id="glossary-list" class="glossary-list" aria-label="MedDRA glossary terms"></ul>
+          <p id="glossary-source" class="daids-footnote"></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="data/glossary.js"></script>
+    <script src="glossary.js" defer></script>
+  </body>
+</html>

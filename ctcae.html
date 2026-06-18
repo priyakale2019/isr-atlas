@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CTCAE — Injection Site Reactions</title>
+    <meta name="description" content="CTCAE severity grades for injection site reaction." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-atlas-home="index.html">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <div>
+            <p class="eyebrow">Clinical education</p>
+            <h1 class="site-title"><a class="site-title-link" href="index.html">Injection site reactions</a></h1>
+            <p class="site-subtitle">CTCAE injection site reactions</p>
+          </div>
+        </div>
+        <nav class="header-nav" aria-label="Primary">
+          <a href="index.html#framework">Evaluation</a>
+          <a href="index.html#primary">Primary lesions</a>
+          <a href="index.html#secondary">Secondary lesions</a>
+          <a href="index.html#template">Documentation</a>
+          <a href="daids.html">DAIDS criteria</a>
+          <a href="ctcae.html" aria-current="page">CTCAE</a>
+          <a href="fda.html">FDA grading</a>
+          <a href="glossary.html">Glossary</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="grading-page">
+      <section class="section">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="grading-back"><a href="index.html">← Back to atlas</a></p>
+            <h2>Common Terminology Criteria for Adverse Events (CTCAE) — Injection Site Reactions</h2>
+            <p class="section-intro">
+              CTCAE severity grades for injection site reaction. Linked morphology terms work the same as in the DAIDS
+              table—hover or focus for photo and definition, click to open the atlas card.
+            </p>
+          </header>
+          <div class="daids-layout">
+            <div id="ctcae-table-root" class="daids-table-wrap" aria-label="CTCAE injection site reaction grading table"></div>
+            <p id="ctcae-definition" class="ctcae-definition"></p>
+            <p id="ctcae-source" class="daids-footnote"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="morph-popover" class="morph-popover" role="tooltip" hidden>
+      <img class="morph-popover-img" src="" alt="" />
+      <div class="morph-popover-body">
+        <p class="morph-popover-term"></p>
+        <p class="morph-popover-def"></p>
+      </div>
+    </div>
+
+    <script src="data/lesions.js"></script>
+    <script src="data/ctcae.js"></script>
+    <script src="morph-links.js"></script>
+    <script src="ctcae.js" defer></script>
+  </body>
+</html>
