@@ -2,6 +2,8 @@
 
 Static clinical morphology guide modeled on [kavitasarin.github.io/ISR](https://kavitasarin.github.io/ISR/). **Primary morphology** cards use photos, captions, and APA references from the workbook tab **Primary morphology - Website**. **Secondary morphology** matches the ISR layout and uses the **secondary morphology** tab.
 
+https://priyakale2019.github.io/isr-atlas/index.html
+
 ## Regenerate from Excel
 
 ```bash
