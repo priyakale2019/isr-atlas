@@ -1,13 +1,13 @@
 # Gilead Injection Site Reactions Atlas (website)
 
-Static clinical morphology guide modeled on [kavitasarin.github.io/ISR](https://kavitasarin.github.io/ISR/). **Primary morphology** cards use photos, captions, and APA references from the workbook tab **Primary morphology - Website**. **Secondary morphology** matches the ISR layout and uses the **secondary morphology** tab.
+Static clinical morphology guide modeled on [kavitasarin.github.io/ISR](https://kavitasarin.github.io/ISR/). **Primary morphology** cards use photos and captions from **Primary morphology - Website**. **Secondary morphology** uses **Secondary morphology - Website**.
 
 https://priyakale2019.github.io/isr-atlas/index.html
 
 ## Regenerate from Excel
 
 ```bash
-export GILEAD_ATLAS_XLSX="/Users/pkale/Downloads/Proposed Gilead Atlas - Draft #3 (3).xlsx"
+export GILEAD_ATLAS_XLSX="/Users/pkale/Downloads/Proposed Gilead Atlas - Draft #3 (4).xlsx"
 # optional: export GILEAD_ATLAS_PDF="/path/to/companion.pdf"
 python3 scripts/extract_gilead_atlas.py
 ```
@@ -16,6 +16,13 @@ To use the original atlas tab for primary instead of the website tab:
 
 ```bash
 export GILEAD_PRIMARY_SOURCE=atlas
+python3 scripts/extract_gilead_atlas.py
+```
+
+To use the original **secondary morphology** tab instead of the website tab:
+
+```bash
+export GILEAD_SECONDARY_SOURCE=atlas
 python3 scripts/extract_gilead_atlas.py
 ```
 

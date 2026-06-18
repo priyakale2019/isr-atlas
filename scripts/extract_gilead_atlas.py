@@ -182,6 +182,7 @@ def main() -> None:
         shutil.copy2(pdf, ASSET_ATLAS / "Proposed-Gilead-Atlas-Draft-3.pdf")
 
     use_website_primary = os.environ.get("GILEAD_PRIMARY_SOURCE", "website").lower() != "atlas"
+    use_website_secondary = os.environ.get("GILEAD_SECONDARY_SOURCE", "website").lower() != "atlas"
 
     z = zipfile.ZipFile(xlsx)
     if use_website_primary:
@@ -192,9 +193,14 @@ def main() -> None:
         primary_anchors = parse_drawing_anchors(
             z, "xl/drawings/drawing1.xml", "xl/drawings/_rels/drawing1.xml.rels"
         )
-    secondary_anchors = parse_drawing_anchors(
-        z, "xl/drawings/drawing3.xml", "xl/drawings/_rels/drawing3.xml.rels"
-    )
+    if use_website_secondary:
+        secondary_anchors = parse_drawing_anchors(
+            z, "xl/drawings/drawing4.xml", "xl/drawings/_rels/drawing4.xml.rels"
+        )
+    else:
+        secondary_anchors = parse_drawing_anchors(
+            z, "xl/drawings/drawing3.xml", "xl/drawings/_rels/drawing3.xml.rels"
+        )
     z.close()
 
     wb = load_workbook(xlsx, data_only=True)
@@ -208,7 +214,10 @@ def main() -> None:
         primary_ws = wb["primary morphology"]
         primary_ref_offset = 0
 
-    secondary_ws = wb["secondary morphology"]
+    if use_website_secondary:
+        secondary_ws = wb["Secondary morphology - Website"]
+    else:
+        secondary_ws = wb["secondary morphology"]
 
     primary_entries = build_lesion_entries(
         primary_ws,
@@ -219,7 +228,12 @@ def main() -> None:
         reference_col_offset=primary_ref_offset,
     )
     secondary_entries = build_lesion_entries(
-        secondary_ws, secondary_anchors, header_row=2, credit=credit, license_line=license_line
+        secondary_ws,
+        secondary_anchors,
+        header_row=2,
+        credit=credit,
+        license_line=license_line,
+        reference_col_offset=0,
     )
 
     # Drop rows with no images and no definition (stray blanks)
