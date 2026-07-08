@@ -46,16 +46,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image33.png",
-          "caption": "A red maculae with few papules at a heparin-injection site",
+          "url": "assets/atlas/media/image1.png",
+          "caption": "Poorly demarcated pink macules coalescing into patch",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image55.png",
-          "caption": "faint, erythematous macules, which rapidly evolved into an erythematous, indurated plaque surmounted by a bulla",
+          "url": "assets/atlas/media/image2.png",
+          "caption": "Thin pink plaque with central bullae",
           "credit": "",
           "license": ""
         }
@@ -68,22 +68,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image38.png",
-          "caption": "erythematous well-defined plaques surrounded by ecchymotic patches",
+          "url": "assets/atlas/media/image3.png",
+          "caption": "well-circumscribed pink edematous annular plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image35.png",
-          "caption": "annular patch",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image35.png",
-          "caption": "annular patch",
+          "url": "assets/atlas/media/image4.png",
+          "caption": "poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         }
@@ -96,34 +90,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image24.png",
-          "caption": "papule — atlas figure",
+          "url": "assets/atlas/media/image5.png",
+          "caption": "pink edematous papule with surrounding erythema",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image32.png",
-          "caption": "Hives (Urticaria)",
+          "url": "assets/atlas/media/image6.png",
+          "caption": "Clustered wheals with surrounding erythematous patch",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image32.png",
-          "caption": "Hives (Urticaria)",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image18.png",
-          "caption": "papule — atlas figure",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image18.png",
-          "caption": "papule — atlas figure",
+          "url": "assets/atlas/media/image7.png",
+          "caption": "pink plaque",
           "credit": "",
           "license": ""
         }
@@ -136,28 +118,28 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image56.png",
-          "caption": "grossly necrotic ulcer with black eschar with surrounding large tender ill-defined indurated erythematous plaque.",
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image14.png",
-          "caption": "(A)Local injection site reaction: An erythematous plaque developed at the injection site on the left arm; delayed large, local reaction: an erythematous, annular, mildly tender plaque (B)",
+          "url": "assets/atlas/media/image9.png",
+          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image34.png",
-          "caption": "erythematous plaque",
+          "url": "assets/atlas/media/image10.png",
+          "caption": "Poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image41.png",
-          "caption": "erythematous, slightly indurated plaque on the anterior right thigh; slight ecchymosis",
+          "url": "assets/atlas/media/image11.png",
+          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
           "credit": "",
           "license": ""
         }
@@ -170,28 +152,28 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image36.png",
-          "caption": "cutaneous nodules surrounded by erythema on the abdomen",
+          "url": "assets/atlas/media/image12.png",
+          "caption": "Poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image49.png",
-          "caption": "Subcutaneous nodule with lichenification caused by scratching at vaccination site in a patient undergoing allergy desensitization",
+          "url": "assets/atlas/media/image13.png",
+          "caption": "Poorly demarcated lichenified hyperpigmented plaque",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image19.png",
-          "caption": "firm subcutaneous nodules with overlying erythema on the right abdomen",
+          "url": "assets/atlas/media/image14.png",
+          "caption": "pink nodules",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image1.png",
-          "caption": "Two weeks follow-up after discontinuation of liraglutide showing excellent resolving of the rash with new deeply seated, hard, firm nodules developed at the same site",
+          "url": "assets/atlas/media/image15.png",
+          "caption": "Hyperpigmented patches interspersed with pink papules",
           "credit": "",
           "license": ""
         }
@@ -204,28 +186,28 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image56.png",
-          "caption": "grossly necrotic ulcer with black eschar with surrounding large tender ill-defined indurated erythematous plaque.",
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image20.png",
-          "caption": "Ulcer at site of fourth injection on the upper portion of the arm",
+          "url": "assets/atlas/media/image16.png",
+          "caption": "geometric ulcer with fibrinous debris with surrounding pinkplaques and papules",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image44.png",
-          "caption": "3-cm necrotic ulcer on the right upper arm covered with eschar at the INF-β-1b injection site and surrounded by wide, irregular erythema.",
+          "url": "assets/atlas/media/image17.png",
+          "caption": "well demarcated annular pink patch with central genometric eschar",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image26.png",
-          "caption": "Severe adverse reactions in injection site were classified as 4 types. (A) Ulceration. (B) Lichenoid lesions. (C) Granulation hyperplasia. (D) Deep abscesses.",
+          "url": "assets/atlas/media/image18.png",
+          "caption": "Poorly demarcated edematous pink plaque with central pink papule",
           "credit": "",
           "license": ""
         }
@@ -238,28 +220,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image21.png",
-          "caption": "swelling and tender induration with central necrosis (figure 1). a well-defined area of soft tissue inflammation with central gas collection",
+          "url": "assets/atlas/media/image19.png",
+          "caption": "Poorly demarcated pink plaque with central ulceration and eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image13.png",
-          "caption": "abscess — atlas figure",
+          "url": "assets/atlas/media/image20.png",
+          "caption": "poorly demarcated pink patch with central papule and scattered satellite pink papules",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image13.png",
-          "caption": "abscess — atlas figure",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image47.png",
-          "caption": "Deep abscesses.",
+          "url": "assets/atlas/media/image21.png",
+          "caption": "Pink nodule with surrounding erythema",
           "credit": "",
           "license": ""
         }
@@ -272,28 +248,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image3.png",
-          "caption": "severe redness in the distribution of the vein",
+          "url": "assets/atlas/media/image22.png",
+          "caption": "Erythematous linear plaque along vascular tract",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image27.png",
-          "caption": "Phlebitis reaction on the patient's left arm",
+          "url": "assets/atlas/media/image23.png",
+          "caption": "Erythematous linear plaque along vascular tract",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image27.png",
-          "caption": "Phlebitis reaction on the patient's left arm",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image5.png",
-          "caption": "Phlebitis of the right hand.",
+          "url": "assets/atlas/media/image24.png",
+          "caption": "hemorrhagic papules with surrounding erythema and edema",
           "credit": "",
           "license": ""
         }
@@ -306,28 +276,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image54.png",
-          "caption": "ecchymotic erythematous patch, with bulla",
+          "url": "assets/atlas/media/image25.png",
+          "caption": "Ecchymosis with hemorrhagic bulla",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image12.png",
-          "caption": "Mild ecchymosis occurring after HA injection",
+          "url": "assets/atlas/media/image26.png",
+          "caption": "Ecchymosis",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image12.png",
-          "caption": "Mild ecchymosis occurring after HA injection",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image50.png",
-          "caption": "erythematous, slightly indurated plaque on the anterior right thigh; slight ecchymosis",
+          "url": "assets/atlas/media/image27.png",
+          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
           "credit": "",
           "license": ""
         }
@@ -340,28 +304,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image9.png",
-          "caption": "The pictures show a typical reaction to the smallpox vaccine. First, a small bump (papule) forms at the vaccine site 3 to 5 days after vaccination. This becomes a pus-filled area (pustule) a few days later. The pustule dries up and then forms a scab by about 14 days after vaccination. The scab finally falls off at about 21 days after vaccination.",
+          "url": "assets/atlas/media/image28.png",
+          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image4.png",
-          "caption": "The pictures show a typical reaction to the smallpox vaccine. First, a small bump (papule) forms at the vaccine site 3 to 5 days after vaccination. This becomes a pus-filled area (pustule) a few days later. The pustule dries up and then forms a scab by about 14 days after vaccination. The scab finally falls off at about 21 days after vaccination.",
+          "url": "assets/atlas/media/image29.png",
+          "caption": "small group pustules with surrounding erythema",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image8.png",
-          "caption": "BCG Vaccine",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image16.png",
-          "caption": "circular plaque bordered with pustules superimposed on erythematous skin",
+          "url": "assets/atlas/media/image30.png",
+          "caption": "linear clustered pustules at edge of erythematous plaque",
           "credit": "",
           "license": ""
         }
@@ -374,22 +332,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image37.png",
-          "caption": "formation of vesicles with surrounding erythema.",
+          "url": "assets/atlas/media/image31.png",
+          "caption": "vesicle within surrounding edematous pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image48.png",
-          "caption": "eroded vesicles with serous discharge and clustered vesicles coalescing into bullae on an erythematous base  (how to describe a lesion)",
+          "url": "assets/atlas/media/image32.png",
+          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image51.jpg",
-          "caption": "Confluent, erythematous edematous plaques with vesicles",
+          "url": "assets/atlas/media/image33.jpeg",
+          "caption": "pink annular edematous plaque with central vesiculation",
           "credit": "",
           "license": ""
         }
@@ -402,22 +360,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image2.png",
-          "caption": "multiple vesicles coalescing into a primary 4 cm bulla",
+          "url": "assets/atlas/media/image34.png",
+          "caption": "bullae with surrounding vesicles within poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image45.png",
-          "caption": "ecchymotic erythematous patch, with bulla",
+          "url": "assets/atlas/media/image35.png",
+          "caption": "Ecchymosis with hemorrhagic bulla",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image10.png",
-          "caption": "faint, erythematous macules, which rapidly evolved into an erythematous, indurated plaque surmounted by a bulla",
+          "url": "assets/atlas/media/image36.png",
+          "caption": "Thin pink plaque with central bullae",
           "credit": "",
           "license": ""
         }
