@@ -118,19 +118,13 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "url": "assets/atlas/media/image9.png",
+          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
-        {
-          "url": "assets/atlas/media/image9.png",
-          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
-          "credit": "",
-          "license": ""
-        },
         {
           "url": "assets/atlas/media/image10.png",
           "caption": "Poorly demarcated pink plaque",
@@ -140,6 +134,12 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image11.png",
           "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -186,19 +186,13 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "url": "assets/atlas/media/image16.png",
+          "caption": "geometric ulcer with fibrinous debris with surrounding pinkplaques and papules",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
-        {
-          "url": "assets/atlas/media/image16.png",
-          "caption": "geometric ulcer with fibrinous debris with surrounding pinkplaques and papules",
-          "credit": "",
-          "license": ""
-        },
         {
           "url": "assets/atlas/media/image17.png",
           "caption": "well demarcated annular pink patch with central genometric eschar",
@@ -208,6 +202,12 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image18.png",
           "caption": "Poorly demarcated edematous pink plaque with central pink papule",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -304,22 +304,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image28.png",
-          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
+          "url": "assets/atlas/media/image29.png",
+          "caption": "small group pustules with surrounding erythema",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image29.png",
-          "caption": "small group pustules with surrounding erythema",
+          "url": "assets/atlas/media/image30.png",
+          "caption": "linear clustered pustules at edge of erythematous plaque",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image30.png",
-          "caption": "linear clustered pustules at edge of erythematous plaque",
+          "url": "assets/atlas/media/image28.png",
+          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
           "credit": "",
           "license": ""
         }
@@ -390,25 +390,13 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image31.png",
-          "caption": "vesicle within surrounding edematous pink plaque",
+          "url": "assets/atlas/media/image10.png",
+          "caption": "Poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
-        {
-          "url": "assets/atlas/media/image9.png",
-          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image10.png",
-          "caption": "Poorly demarcated pink plaque",
-          "credit": "",
-          "license": ""
-        },
         {
           "url": "assets/atlas/media/image37.png",
           "caption": "well-demarcated pink edematous plaque",
@@ -426,6 +414,18 @@ window.LESION_DATA = {
           "caption": "well demarcated annular pink patch with central genometric eschar",
           "credit": "",
           "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image31.png",
+          "caption": "vesicle within surrounding edematous pink plaque",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image9.png",
+          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
+          "credit": "",
+          "license": ""
         }
       ]
     },
@@ -436,19 +436,13 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "url": "assets/atlas/media/image38.png",
+          "caption": "well demarcated annular pink patch with central genometric eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
-        {
-          "url": "assets/atlas/media/image38.png",
-          "caption": "well demarcated annular pink patch with central genometric eschar",
-          "credit": "",
-          "license": ""
-        },
         {
           "url": "assets/atlas/media/image39.png",
           "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
@@ -458,6 +452,12 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image40.png",
           "caption": "hyperpigmented macules",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -535,22 +535,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image19.png",
-          "caption": "Poorly demarcated pink plaque with central ulceration and eschar",
+          "url": "assets/atlas/media/image39.png",
+          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image39.png",
-          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "url": "assets/atlas/media/image36.png",
+          "caption": "Thin pink plaque with central bullae",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image36.png",
-          "caption": "Thin pink plaque with central bullae",
+          "url": "assets/atlas/media/image19.png",
+          "caption": "Poorly demarcated pink plaque with central ulceration and eschar",
           "credit": "",
           "license": ""
         }
@@ -622,16 +622,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image42.png",
-          "caption": "(A) Hypopigmented atrophic plaque; (B) Elbow",
+          "url": "assets/atlas/media/image44.png",
+          "caption": "Atrophic hypopigmented plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image44.png",
-          "caption": "Atrophic hypopigmented plaque",
+          "url": "assets/atlas/media/image42.png",
+          "caption": "(A) Hypopigmented atrophic plaque; (B) Elbow",
           "credit": "",
           "license": ""
         }
@@ -644,16 +644,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image32.png",
-          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
+          "url": "assets/atlas/media/image28.png",
+          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image28.png",
-          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
+          "url": "assets/atlas/media/image32.png",
+          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         }
