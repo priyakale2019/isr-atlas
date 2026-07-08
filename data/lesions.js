@@ -679,7 +679,14 @@ window.LESION_DATA = {
       "term": "Scar",
       "definition": "permanent fibrotic skin changes that develop as a consequence of tissue injury in which normal tissue is replaced by fibrous connective tissue at the site of injury to the dermis. Scars may be hypertrophic, atrophic, sclerotic or hard due to collagen proliferation. Reflects pattern of healing in the affected area.",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
-      "images": [],
+      "images": [
+        {
+          "url": "assets/atlas/media/scar-bcg-vaccination.png",
+          "caption": "Atrophic circular BCG vaccination scar on the upper arm",
+          "credit": "Thomas, M. (n.d.). BCG vaccination scar [Photograph]. Science Photo Gallery. https://sciencephotogallery.com/featured/bcg-vaccination-scar-mark-thomasscience-photo-library.html?product=wood-print",
+          "license": ""
+        }
+      ],
       "gallery": []
     }
   ],
