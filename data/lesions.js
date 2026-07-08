@@ -390,40 +390,40 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image37.png",
-          "caption": "Day 2 following inoculation with initial formation of vesicles with surrounding erythema.",
+          "url": "assets/atlas/media/image31.png",
+          "caption": "vesicle within surrounding edematous pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
+          "url": "assets/atlas/media/image9.png",
+          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image10.png",
+          "caption": "Poorly demarcated pink plaque",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image37.png",
+          "caption": "well-demarcated pink edematous plaque",
+          "credit": "",
+          "license": ""
+        },
+        {
           "url": "assets/atlas/media/image14.png",
-          "caption": "Local injection site reaction: An erythematous plaque developed at the injection site on the left arm 1 day after BNT162b2 vaccination (A); delayed large, local reaction: an erythematous, annular, mildly tender plaque developed 6 days after mRNA-1273 vaccination at the injection site on the left arm (B).",
+          "caption": "pink nodules",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image34.png",
-          "caption": "Erythematous plaque at the injection site 8 days following the second dose of the Pfizer–BioNTech vaccination. (b) Swelling is evident.",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image28.png",
-          "caption": "“Delayed injection-site reactions (those with onset on or after day 8) were noted in 244 participants (0.8%) after the first dose and in 68 participants (0.2%) after the second dose. Reactions were characterized by erythema, induration, and tenderness, and they resolved over the following 4 to 5 days.” \"Tender",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image19.png",
-          "caption": "Fig 1 Two firm subcutaneous nodules with overlying erythema on the right abdomen.",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image11.png",
-          "caption": "Fig. 1 A 4¡ 3-cm necrotic ulcer on the right upper arm covered with eschar at the INF-β-1b injection site and surrounded by wide, irregular erythema.",
+          "url": "assets/atlas/media/image38.png",
+          "caption": "well demarcated annular pink patch with central genometric eschar",
           "credit": "",
           "license": ""
         }
@@ -436,28 +436,28 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image56.png",
-          "caption": "grossly necrotic ulcer with black eschar with surrounding large tender ill-defined indurated erythematous plaque.",
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image11.png",
-          "caption": "Fig. 1 A 4¡ 3-cm necrotic ulcer on the right upper arm covered with eschar at the INF-β-1b injection site and surrounded by wide, irregular erythema.",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image15.png",
-          "caption": "light brown bruising",
+          "url": "assets/atlas/media/image38.png",
+          "caption": "well demarcated annular pink patch with central genometric eschar",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image39.png",
-          "caption": "Figure 2 Marked improvement in soft tissue contour and skin pigmentation after 2 fat-grafting procedures.",
+          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "credit": "",
+          "license": ""
+        },
+        {
+          "url": "assets/atlas/media/image40.png",
+          "caption": "hyperpigmented macules",
           "credit": "",
           "license": ""
         }
@@ -470,22 +470,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image56.png",
-          "caption": "grossly necrotic ulcer with black eschar with surrounding large tender ill-defined indurated erythematous plaque.",
+          "url": "assets/atlas/media/image8.png",
+          "caption": "poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image11.png",
-          "caption": "Fig. 1 A 4¡ 3-cm necrotic ulcer on the right upper arm covered with eschar at the INF-β-1b injection site and surrounded by wide, irregular erythema.",
+          "url": "assets/atlas/media/image38.png",
+          "caption": "well demarcated annular pink patch with central genometric eschar",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image21.png",
-          "caption": "At this time, local examination revealed erythema, swelling and tender induration with central necrosis (figure 1). Further evaluation of the area with a CT scan revealed a well-defined area of soft tissue inflammation with central gas collection",
+          "url": "assets/atlas/media/image19.png",
+          "caption": "Poorly demarcated pink plaque with central ulceration and eschar",
           "credit": "",
           "license": ""
         }
@@ -498,8 +498,8 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image48.png",
-          "caption": "“Figure 1b. A close up view of the lesion, showing eroded vesicles with serous discharge and clustered vesicles coalescing into bullae on an erythematous base. Background photodamage is visible.”",
+          "url": "assets/atlas/media/image32.png",
+          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         }
@@ -513,16 +513,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image51.jpg",
-          "caption": "Confluent, erythematous edematous plaques with vesicles at the sites of injection of mesotherapy on the thigh.",
+          "url": "assets/atlas/media/image33.jpeg",
+          "caption": "pink annular edematous plaque with central vesiculation",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image14.png",
-          "caption": "Erythematous plaque at the injection site 8 days following the second dose of the Pfizer–BioNTech vaccination. (b) Swelling is evident.",
+          "url": "assets/atlas/media/image9.png",
+          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
           "credit": "",
           "license": ""
         }
@@ -535,22 +535,22 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image21.png",
-          "caption": "At this time, local examination revealed erythema, swelling and tender induration with central necrosis (figure 1). Further evaluation of the area with a CT scan revealed a well-defined area of soft tissue inflammation with central gas collection",
+          "url": "assets/atlas/media/image19.png",
+          "caption": "Poorly demarcated pink plaque with central ulceration and eschar",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image15.png",
-          "caption": "erythematous, slightly indurated plaque on the anterior right thigh; slight ecchymosis",
+          "url": "assets/atlas/media/image39.png",
+          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
           "credit": "",
           "license": ""
         },
         {
-          "url": "assets/atlas/media/image10.png",
-          "caption": "faint, erythematous macules, which rapidly evolved into an erythematous, indurated plaque surmounted by a bulla",
+          "url": "assets/atlas/media/image36.png",
+          "caption": "Thin pink plaque with central bullae",
           "credit": "",
           "license": ""
         }
@@ -563,16 +563,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image31.png",
-          "caption": "Day 7 post-inoculation with newly denuded skin with circumferential hyperpigmentation.",
+          "url": "assets/atlas/media/image41.png",
+          "caption": "large erosion within rectangular pink plaque with hyperpigmented area",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image39.png",
-          "caption": "Figure 2 Marked improvement in soft tissue contour and skin pigmentation after 2 fat-grafting procedures.",
+          "url": "assets/atlas/media/image40.png",
+          "caption": "hyperpigmented macules",
           "credit": "",
           "license": ""
         }
@@ -585,8 +585,8 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image29.png",
-          "caption": "(A) Skin hypopigmentation and subcutaneous fat atrophy in the right elbow of the patient after corticosteroid injections; (B) elbow surface 24 months after fat graft.",
+          "url": "assets/atlas/media/image42.png",
+          "caption": "(A) Hypopigmented atrophic plaque; (B) Elbow",
           "credit": "",
           "license": ""
         }
@@ -600,22 +600,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image34.png",
-          "caption": "Local injection site reaction: An erythematous plaque developed at the injection site on the left arm 1 day after BNT162b2 vaccination (A); delayed large, local reaction: an erythematous, annular, mildly tender plaque developed 6 days after mRNA-1273 vaccination at the injection site on the left arm (B).",
+          "url": "assets/atlas/media/image43.png",
+          "caption": "Annular edematous pink plaque",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image22.png",
-          "caption": "COVID-19; annular lesion on right",
-          "credit": "",
-          "license": ""
-        },
-        {
-          "url": "assets/atlas/media/image14.png",
-          "caption": "Erythematous plaque at the injection site 8 days following the second dose of the Pfizer–BioNTech vaccination. (b) Swelling is evident (as per Dr. Sarin - annular lesion)",
+          "url": "assets/atlas/media/image9.png",
+          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
           "credit": "",
           "license": ""
         }
@@ -628,16 +622,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image29.png",
-          "caption": "(A) Skin hypopigmentation and subcutaneous fat atrophy in the right elbow of the patient after corticosteroid injections; (B) elbow surface 24 months after fat graft.",
+          "url": "assets/atlas/media/image42.png",
+          "caption": "(A) Hypopigmented atrophic plaque; (B) Elbow",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image30.png",
-          "caption": "Figure 1 Soft tissue atrophy and skin discoloration 10 months after corticosteroid injections for lateral epicondylitis.",
+          "url": "assets/atlas/media/image44.png",
+          "caption": "Atrophic hypopigmented plaque",
           "credit": "",
           "license": ""
         }
@@ -650,16 +644,16 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image48.png",
-          "caption": "“Figure 1b. A close up view of the lesion, showing eroded vesicles with serous discharge and clustered vesicles coalescing into bullae on an erythematous base. Background photodamage is visible.”",
+          "url": "assets/atlas/media/image32.png",
+          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image4.png",
-          "caption": "The pictures show a typical reaction to the smallpox vaccine. First, a small bump (papule) forms at the vaccine site 3 to 5 days after vaccination. This becomes a pus-filled area (pustule) a few days later. The pustule dries up and then forms a scab by about 14 days after vaccination. The scab finally falls off at about 21 days after vaccination.",
+          "url": "assets/atlas/media/image28.png",
+          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
           "credit": "",
           "license": ""
         }
@@ -672,8 +666,8 @@ window.LESION_DATA = {
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image46.png",
-          "caption": "(A and B) Erosive, erythemato-violaceous plaques, located in lower abdomen, around injection sites of subcutaneous MTX.\n(C) Dermatoscopic image: erosion and delicate scaling over the surface of a lesion.\n(D) IDT performed with 0.1, 1, and 10 mg/ml concentrations of MTX was negative in immediate (20 min) and late reading (7 days).\nIDT, intradermal test; MTX, methotrexate.",
+          "url": "assets/atlas/media/image45.png",
+          "caption": "(A) Dark red well-demarcated plaques; (B) Dark red plauque with peripheral hyperpigmentation. (C) Pink plauqe with erosion and crust, (D) REd papules",
           "credit": "",
           "license": ""
         }

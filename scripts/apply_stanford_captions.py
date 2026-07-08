@@ -1,6 +1,6 @@
 """
 Apply Stanford Dermatology Physician captions (and matching photos) from the
-Website pictures workbook to primary morphology entries in data/lesions.js.
+Website pictures workbook to primary and secondary morphology in data/lesions.js.
 
 Usage:
   python scripts/apply_stanford_captions.py "/path/to/Copy of Gilead Atlas - Website pictures (1).xlsx"
@@ -37,12 +37,6 @@ PRIMARY_FEATURES = {
     "vesicle",
     "bulla",
 }
-
-
-def slugify(value: str) -> str:
-    value = value.strip().lower()
-    value = re.sub(r"[^a-z0-9]+", "-", value)
-    return value.strip("-") or "feature"
 
 
 def parse_drawing_anchors(z: zipfile.ZipFile, drawing_path: str, rels_path: str) -> dict[tuple[int, int], str]:
@@ -105,8 +99,6 @@ def load_rows(xlsx: Path) -> dict[str, list[dict]]:
         if not feature:
             continue
         feature_key = str(feature).strip().lower()
-        if feature_key not in PRIMARY_FEATURES:
-            continue
 
         label = ws.cell(row=row, column=3).value
         if not label:
@@ -138,6 +130,21 @@ def load_rows(xlsx: Path) -> dict[str, list[dict]]:
     return grouped
 
 
+def apply_shots(entries: list[dict], grouped: dict[str, list[dict]]) -> list[dict]:
+    updated = []
+    for entry in entries:
+        ident = entry["id"]
+        shots = grouped.get(ident, [])
+        if not shots:
+            updated.append(entry)
+            continue
+        entry = dict(entry)
+        entry["images"] = [shots[0]]
+        entry["gallery"] = shots[1:]
+        updated.append(entry)
+    return updated
+
+
 def main() -> None:
     xlsx = Path(sys.argv[1] if len(sys.argv) > 1 else "")
     if not xlsx.exists():
@@ -151,25 +158,22 @@ def main() -> None:
         raise SystemExit("Unexpected lesions.js format")
     data = json.loads(text.split("=", 1)[1].strip().rstrip(";"))
 
-    updated = []
-    for entry in data["primaryLesions"]:
-        ident = entry["id"]
-        shots = grouped.get(ident, [])
-        if not shots:
-            updated.append(entry)
-            continue
-        entry = dict(entry)
-        entry["images"] = [shots[0]]
-        entry["gallery"] = shots[1:]
-        updated.append(entry)
+    data["primaryLesions"] = apply_shots(data["primaryLesions"], grouped)
+    data["secondaryLesions"] = apply_shots(data["secondaryLesions"], grouped)
 
-    data["primaryLesions"] = updated
     out = "window.LESION_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
     LESIONS_PATH.write_text(out, encoding="utf-8")
     print(f"Updated {LESIONS_PATH}")
-    for ident in PRIMARY_FEATURES:
+    print("Primary:")
+    for ident in sorted(PRIMARY_FEATURES):
         count = len(grouped.get(ident, []))
-        print(f"  {ident}: {count} photo(s)")
+        if count:
+            print(f"  {ident}: {count} photo(s)")
+    print("Secondary:")
+    for ident in sorted(grouped):
+        if ident in PRIMARY_FEATURES:
+            continue
+        print(f"  {ident}: {len(grouped[ident])} photo(s)")
 
 
 if __name__ == "__main__":
