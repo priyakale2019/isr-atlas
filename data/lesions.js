@@ -1,7 +1,7 @@
 window.LESION_DATA = {
   "meta": {
     "title": "Injection Site Reactions: Morphology for Clinicians",
-    "subtitle": "Structured language for injection-site findings — clinical photographs with Bolognia diagram references.",
+    "subtitle": "Structured language for injection-site findings — clinical photographs with line-drawing references.",
     "stanfordReference": "https://med.stanford.edu/stanfordmedicine25/the25/dermatology.html",
     "disclaimer": "This resource is for clinical education and standardized description of cutaneous findings. Confirm image use, consent, and copyright with your organization before wider distribution. It does not establish diagnosis or management.",
     "atlasPdf": "assets/atlas/Proposed-Gilead-Atlas-Draft-3.pdf"
@@ -42,7 +42,7 @@ window.LESION_DATA = {
     {
       "id": "macule",
       "term": "Macule",
-      "definition": "a circumscribed, flat lesion with color change up to 1 cm in diameter",
+      "definition": "A circumscribed, flat lesion with color change up to 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -64,12 +64,12 @@ window.LESION_DATA = {
     {
       "id": "patch",
       "term": "Patch",
-      "definition": "a flat lesion greater than 1 cm in diameter",
+      "definition": "A flat lesion greater than 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image3.png",
-          "caption": "well-circumscribed pink edematous annular plaque",
+          "caption": "Well-circumscribed pink edematous annular plaque",
           "credit": "",
           "license": ""
         }
@@ -77,7 +77,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image4.png",
-          "caption": "poorly demarcated pink plaque",
+          "caption": "Poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         }
@@ -86,12 +86,12 @@ window.LESION_DATA = {
     {
       "id": "papule",
       "term": "Papule",
-      "definition": "a raised lesion up to 1 cm in diameter",
+      "definition": "A raised lesion up to 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image5.png",
-          "caption": "pink edematous papule with surrounding erythema",
+          "caption": "Pink edematous papule with surrounding erythema",
           "credit": "",
           "license": ""
         }
@@ -105,7 +105,7 @@ window.LESION_DATA = {
         },
         {
           "url": "assets/atlas/media/image7.png",
-          "caption": "pink plaque",
+          "caption": "Pink plaque",
           "credit": "",
           "license": ""
         }
@@ -114,12 +114,12 @@ window.LESION_DATA = {
     {
       "id": "plaque",
       "term": "Plaque",
-      "definition": "a raised lesion > 1 cm in diameter",
+      "definition": "A raised lesion greater than 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image9.png",
-          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
+          "caption": "(A) Poorly demarcated pink plaque; (B) Well-demarcated annular pink plaque",
           "credit": "",
           "license": ""
         }
@@ -133,13 +133,13 @@ window.LESION_DATA = {
         },
         {
           "url": "assets/atlas/media/image11.png",
-          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "caption": "Poorly demarcated thin pink plaque with neighboring ecchymosis",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "caption": "Poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -148,7 +148,7 @@ window.LESION_DATA = {
     {
       "id": "nodule",
       "term": "Nodule",
-      "definition": "a raised lesion with deeper vertical dimension often extending the subcutaneous tissue",
+      "definition": "A raised lesion with deeper vertical dimension, often extending into the subcutaneous tissue",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -167,7 +167,7 @@ window.LESION_DATA = {
         },
         {
           "url": "assets/atlas/media/image14.png",
-          "caption": "pink nodules",
+          "caption": "Pink nodules",
           "credit": "",
           "license": ""
         },
@@ -182,12 +182,12 @@ window.LESION_DATA = {
     {
       "id": "ulcer",
       "term": "Ulcer",
-      "definition": "full-thickness loss of the epidermis with damage into the dermis, heals with scarring",
+      "definition": "Full-thickness loss of the epidermis with damage into the dermis; heals with scarring",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image16.png",
-          "caption": "geometric ulcer with fibrinous debris with surrounding pinkplaques and papules",
+          "caption": "Geometric ulcer with fibrinous debris with surrounding pink plaques and papules",
           "credit": "",
           "license": ""
         }
@@ -195,7 +195,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image17.png",
-          "caption": "well demarcated annular pink patch with central genometric eschar",
+          "caption": "Well demarcated annular pink patch with central geometric eschar",
           "credit": "",
           "license": ""
         },
@@ -207,7 +207,7 @@ window.LESION_DATA = {
         },
         {
           "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "caption": "Poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -216,7 +216,7 @@ window.LESION_DATA = {
     {
       "id": "abscess",
       "term": "Abscess",
-      "definition": "large collection of pus greater than 1cm in diameter. Often deeper and can extend into subcutaneous tissue",
+      "definition": "Large collection of pus greater than 1 cm in diameter. Often deeper and can extend into subcutaneous tissue",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -229,7 +229,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image20.png",
-          "caption": "poorly demarcated pink patch with central papule and scattered satellite pink papules",
+          "caption": "Poorly demarcated pink patch with central papule and scattered satellite pink papules",
           "credit": "",
           "license": ""
         },
@@ -244,7 +244,7 @@ window.LESION_DATA = {
     {
       "id": "phlebitis",
       "term": "Phlebitis",
-      "definition": "inflammation of blood vessels",
+      "definition": "Inflammation of a vein",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -263,7 +263,7 @@ window.LESION_DATA = {
         },
         {
           "url": "assets/atlas/media/image24.png",
-          "caption": "hemorrhagic papules with surrounding erythema and edema",
+          "caption": "Hemorrhagic papules with surrounding erythema and edema",
           "credit": "",
           "license": ""
         }
@@ -272,7 +272,7 @@ window.LESION_DATA = {
     {
       "id": "ecchymosis",
       "term": "Ecchymosis",
-      "definition": "bruising (does not blanche when pressed)",
+      "definition": "Bruising (does not blanch when pressed)",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -291,7 +291,7 @@ window.LESION_DATA = {
         },
         {
           "url": "assets/atlas/media/image27.png",
-          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "caption": "Poorly demarcated thin pink plaque with neighboring ecchymosis",
           "credit": "",
           "license": ""
         }
@@ -300,12 +300,12 @@ window.LESION_DATA = {
     {
       "id": "pustule",
       "term": "Pustule",
-      "definition": "an elevated usually yellow-topped lesion that contain pus less than 1cm in diameter",
+      "definition": "An elevated, usually yellow-topped lesion that contains pus, less than 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image29.png",
-          "caption": "small group pustules with surrounding erythema",
+          "caption": "Small group of pustules with surrounding erythema",
           "credit": "",
           "license": ""
         }
@@ -313,13 +313,13 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image30.png",
-          "caption": "linear clustered pustules at edge of erythematous plaque",
+          "caption": "Linear clustered pustules at edge of erythematous plaque",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image28.png",
-          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
+          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhagic vesicle with surrounding erythema; hemorrhagic crust",
           "credit": "",
           "license": ""
         }
@@ -328,12 +328,12 @@ window.LESION_DATA = {
     {
       "id": "vesicle",
       "term": "Vesicle",
-      "definition": "a small, fluid-filled blister up to 1cm in diameter",
+      "definition": "A small, fluid-filled blister up to 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image31.png",
-          "caption": "vesicle within surrounding edematous pink plaque",
+          "caption": "Vesicle within surrounding edematous pink plaque",
           "credit": "",
           "license": ""
         }
@@ -341,13 +341,13 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image32.png",
-          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
+          "caption": "Clustered vesicles interspersed with hemorrhagic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image33.jpeg",
-          "caption": "pink annular edematous plaque with central vesiculation",
+          "caption": "Pink annular edematous plaque with central vesiculation",
           "credit": "",
           "license": ""
         }
@@ -356,12 +356,12 @@ window.LESION_DATA = {
     {
       "id": "bulla",
       "term": "Bulla",
-      "definition": "a fluid-filled blister greater than 1 cm in diameter",
+      "definition": "A fluid-filled blister greater than 1 cm in diameter",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image34.png",
-          "caption": "bullae with surrounding vesicles within poorly demarcated pink plaque",
+          "caption": "Bullae with surrounding vesicles within poorly demarcated pink plaque",
           "credit": "",
           "license": ""
         }
@@ -386,7 +386,7 @@ window.LESION_DATA = {
     {
       "id": "erythema",
       "term": "Erythema",
-      "definition": "redness lasting >30 min after injection, blanchable",
+      "definition": "Redness lasting more than 30 minutes after injection; blanchable",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -399,31 +399,31 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image37.png",
-          "caption": "well-demarcated pink edematous plaque",
+          "caption": "Well-demarcated pink edematous plaque",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image14.png",
-          "caption": "pink nodules",
+          "caption": "Pink nodules",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image38.png",
-          "caption": "well demarcated annular pink patch with central genometric eschar",
+          "caption": "Well demarcated annular pink patch with central geometric eschar",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image31.png",
-          "caption": "vesicle within surrounding edematous pink plaque",
+          "caption": "Vesicle within surrounding edematous pink plaque",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image9.png",
-          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
+          "caption": "(A) Poorly demarcated pink plaque; (B) Well-demarcated annular pink plaque",
           "credit": "",
           "license": ""
         }
@@ -437,7 +437,7 @@ window.LESION_DATA = {
       "images": [
         {
           "url": "assets/atlas/media/image38.png",
-          "caption": "well demarcated annular pink patch with central genometric eschar",
+          "caption": "Well demarcated annular pink patch with central geometric eschar",
           "credit": "",
           "license": ""
         }
@@ -445,19 +445,19 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image39.png",
-          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "caption": "Poorly demarcated thin pink plaque with neighboring ecchymosis",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image40.png",
-          "caption": "hyperpigmented macules",
+          "caption": "Hyperpigmented macules",
           "credit": "",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "caption": "Poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -466,12 +466,12 @@ window.LESION_DATA = {
     {
       "id": "necrosis",
       "term": "Necrosis",
-      "definition": "visible depth or black tissue",
+      "definition": "Visible tissue depth or black tissue",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image8.png",
-          "caption": "poorly demarcated pink plaque with central eschar",
+          "caption": "Poorly demarcated pink plaque with central eschar",
           "credit": "",
           "license": ""
         }
@@ -479,7 +479,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image38.png",
-          "caption": "well demarcated annular pink patch with central genometric eschar",
+          "caption": "Well demarcated annular pink patch with central geometric eschar",
           "credit": "",
           "license": ""
         },
@@ -494,12 +494,12 @@ window.LESION_DATA = {
     {
       "id": "drainage",
       "term": "Drainage",
-      "definition": "Atlas entry: drainage.",
+      "definition": "Fluid discharge from the lesion; note color, volume, and character",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image32.png",
-          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
+          "caption": "Clustered vesicles interspersed with hemorrhagic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         }
@@ -509,12 +509,12 @@ window.LESION_DATA = {
     {
       "id": "edema",
       "term": "Edema",
-      "definition": "Fluid in tissue; soft; swelling",
+      "definition": "Fluid in tissue; soft swelling",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image33.jpeg",
-          "caption": "pink annular edematous plaque with central vesiculation",
+          "caption": "Pink annular edematous plaque with central vesiculation",
           "credit": "",
           "license": ""
         }
@@ -522,7 +522,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image9.png",
-          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
+          "caption": "(A) Poorly demarcated pink plaque; (B) Well-demarcated annular pink plaque",
           "credit": "",
           "license": ""
         }
@@ -531,12 +531,12 @@ window.LESION_DATA = {
     {
       "id": "induration",
       "term": "Induration",
-      "definition": "Firmness and thickening of the intradermal space;  can only be determined by palpation, similar to nodule",
+      "definition": "Firmness and thickening of the intradermal space; can only be determined by palpation, similar to a nodule",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image39.png",
-          "caption": "Poorly demarcated thin pink plaque witth neighboring ecchymosis",
+          "caption": "Poorly demarcated thin pink plaque with neighboring ecchymosis",
           "credit": "",
           "license": ""
         }
@@ -559,12 +559,12 @@ window.LESION_DATA = {
     {
       "id": "hyperpigmentation",
       "term": "Hyperpigmentation",
-      "definition": "darkening of skin",
+      "definition": "Darkening of the skin",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image41.png",
-          "caption": "large erosion within rectangular pink plaque with hyperpigmented area",
+          "caption": "Large erosion within rectangular pink plaque with hyperpigmented area",
           "credit": "",
           "license": ""
         }
@@ -572,7 +572,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image40.png",
-          "caption": "hyperpigmented macules",
+          "caption": "Hyperpigmented macules",
           "credit": "",
           "license": ""
         }
@@ -581,7 +581,7 @@ window.LESION_DATA = {
     {
       "id": "hypopigmentation",
       "term": "Hypopigmentation",
-      "definition": "lightening of skin",
+      "definition": "Lightening of the skin",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -596,7 +596,7 @@ window.LESION_DATA = {
     {
       "id": "annular",
       "term": "Annular",
-      "definition": "circular, ring-like lesion",
+      "definition": "Circular, ring-like lesion",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -609,7 +609,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image9.png",
-          "caption": "(A) poorly demarcated pink plaque; (B) Well-demaracted annular pink plaque",
+          "caption": "(A) Poorly demarcated pink plaque; (B) Well-demarcated annular pink plaque",
           "credit": "",
           "license": ""
         }
@@ -618,7 +618,7 @@ window.LESION_DATA = {
     {
       "id": "atrophy",
       "term": "Atrophy",
-      "definition": "localized shrinking of the skin which results in paper-thin, wrinkled skin with easily visible vessels",
+      "definition": "Localized shrinking of the skin that results in paper-thin, wrinkled skin with easily visible vessels",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -640,12 +640,12 @@ window.LESION_DATA = {
     {
       "id": "crust",
       "term": "Crust",
-      "definition": "occurs from dried exudate overlying and impaired epidermis. exudate can be composed of blood, serum, or pus. e.g impetigo, epidermolysis bullosa.",
+      "definition": "Dried exudate overlying an impaired epidermis. Exudate can be composed of blood, serum, or pus (e.g., impetigo, epidermolysis bullosa).",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image28.png",
-          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhaghic vesicle with surrounding erythema; hemorrhaghic crust",
+          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhagic vesicle with surrounding erythema; hemorrhagic crust",
           "credit": "",
           "license": ""
         }
@@ -653,7 +653,7 @@ window.LESION_DATA = {
       "gallery": [
         {
           "url": "assets/atlas/media/image32.png",
-          "caption": "clustered vesicles interspesed with hemorrhaghic and serous crust with erythematous base",
+          "caption": "Clustered vesicles interspersed with hemorrhagic and serous crust with erythematous base",
           "credit": "",
           "license": ""
         }
@@ -662,12 +662,12 @@ window.LESION_DATA = {
     {
       "id": "erosion",
       "term": "Erosion",
-      "definition": "intraepithelial loss of epidermis, usually heals without scarring, moist, circumscribed, usually depressed lesion due to loss of all or part of the epidermis e.g. herpes simplex.",
+      "definition": "Intraepithelial loss of epidermis; usually heals without scarring. Moist, circumscribed, usually depressed lesion due to loss of all or part of the epidermis (e.g., herpes simplex).",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
           "url": "assets/atlas/media/image45.png",
-          "caption": "(A) Dark red well-demarcated plaques; (B) Dark red plauque with peripheral hyperpigmentation. (C) Pink plauqe with erosion and crust, (D) REd papules",
+          "caption": "(A) Dark red well-demarcated plaques; (B) Dark red plaque with peripheral hyperpigmentation. (C) Pink plaque with erosion and crust, (D) REd papules",
           "credit": "",
           "license": ""
         }
@@ -677,7 +677,7 @@ window.LESION_DATA = {
     {
       "id": "scar",
       "term": "Scar",
-      "definition": "permanent fibrotic skin changes that develop as a consequence of tissue injury in which normal tissue is replaced by fibrous connective tissue at the site of injury to the dermis. Scars may be hypertrophic, atrophic, sclerotic or hard due to collagen proliferation. Reflects pattern of healing in the affected area.",
+      "definition": "Permanent fibrotic skin changes that develop as a consequence of tissue injury in which normal tissue is replaced by fibrous connective tissue at the site of injury to the dermis. Scars may be hypertrophic, atrophic, sclerotic, or hard due to collagen proliferation. Reflects the pattern of healing in the affected area.",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {

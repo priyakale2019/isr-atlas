@@ -96,7 +96,7 @@
     function setFlipped(flipped) {
       flipRoot.classList.toggle("is-flipped", flipped);
       toggleBtn.setAttribute("aria-expanded", flipped ? "true" : "false");
-      toggleBtn.textContent = flipped ? "Show clinical photograph" : "Show line drawing (Bolognia)";
+      toggleBtn.textContent = flipped ? "Show clinical photograph" : "Show line drawing";
       front.setAttribute("aria-hidden", flipped ? "true" : "false");
       back.setAttribute("aria-hidden", flipped ? "false" : "true");
     }

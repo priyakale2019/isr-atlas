@@ -26,6 +26,7 @@
           </div>
         </div>
         <nav class="header-nav" aria-label="Primary">
+          <a href="index.html#tutorial">Tutorial</a>
           <a href="index.html#framework">Evaluation</a>
           <a href="index.html#primary">Primary lesions</a>
           <a href="index.html#secondary">Secondary lesions</a>
@@ -48,6 +49,8 @@
               Preferred terms and linked hierarchy labels from the MedDRA search export (columns B and D), with
               “injection site” removed; case-insensitive duplicates removed; British spellings merged to American.
               Terms that match atlas morphology show a photo and definition on hover—click to open the lesion card.
+              Additional open-license reference images (first pass) open on click for selected infection and
+              hypersensitivity terms.
             </p>
           </header>
           <div class="glossary-toolbar">
@@ -75,8 +78,30 @@
       </div>
     </div>
 
+    <div
+      id="glossary-image-modal"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="glossary-modal-title"
+      hidden
+    >
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-panel" role="document">
+        <button type="button" class="modal-close" aria-label="Close image" data-close="true">&times;</button>
+        <h2 id="glossary-modal-title" class="modal-title"></h2>
+        <div class="modal-gallery">
+          <figure class="modal-figure">
+            <img id="glossary-modal-img" src="" alt="" />
+            <figcaption id="glossary-modal-caption" class="modal-caption"></figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
     <script src="data/lesions.js"></script>
     <script src="data/glossary.js"></script>
+    <script src="data/glossary-images.js"></script>
     <script src="morph-links.js"></script>
     <script src="glossary.js" defer></script>
   </body>

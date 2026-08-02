@@ -22,6 +22,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
 }
 
 body {
@@ -49,15 +50,19 @@ body {
 }
 
 .wrap {
-  width: min(1120px, 100% - 2.5rem);
+  width: min(1200px, 100% - 2.5rem);
   margin-inline: auto;
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
   background: linear-gradient(120deg, var(--accent-strong), var(--accent));
   color: #f8fafc;
   padding: 1.75rem 0 1.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
 }
 
 .header-inner {
@@ -144,6 +149,167 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
+.tutorial {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: 10rem;
+}
+
+.tutorial-grid {
+  display: grid;
+  gap: 2rem 2.5rem;
+  padding: 2.25rem 0 2.75rem;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.15fr);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .tutorial-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tutorial-figure {
+  margin: 0;
+  background: #0b1220;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.tutorial-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(70vh, 720px);
+  object-fit: contain;
+  background: #0b1220;
+}
+
+.tutorial-caption {
+  margin: 0;
+  padding: 0.7rem 1rem;
+  font-size: 0.88rem;
+  color: #cbd5e1;
+  background: #0f172a;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.tutorial-eyebrow {
+  color: var(--accent);
+  opacity: 1;
+}
+
+.tutorial-title {
+  margin: 0.15rem 0 0.85rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.55rem, 2.4vw, 2rem);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.tutorial-lede {
+  margin: 0 0 1.25rem;
+  color: var(--ink-muted);
+  font-size: 1.05rem;
+}
+
+.tutorial-example-label {
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  font-weight: 700;
+}
+
+.tutorial-example {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #f8fafc;
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.tutorial-steps {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+  color: var(--ink);
+  display: grid;
+  gap: 0.95rem;
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+.tutorial-steps li::marker {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.tutorial-morph {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.2em;
+  cursor: help;
+}
+
+.tutorial-morph:hover,
+.tutorial-morph:focus-visible {
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border-radius: 2px;
+  outline: none;
+}
+
+.tutorial-tips {
+  margin-top: 0.25rem;
+}
+
+.tutorial-popover {
+  position: fixed;
+  z-index: 1200;
+  width: min(320px, calc(100vw - 24px));
+  padding: 0.85rem 0.95rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.2);
+  pointer-events: auto;
+}
+
+.tutorial-popover[hidden] {
+  display: none;
+}
+
+.tutorial-popover-term {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+
+.tutorial-popover-def {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  line-height: 1.45;
+}
+
+.tutorial-popover-hint {
+  margin: 0.65rem 0 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 .hero-grid {
   display: grid;
   gap: 2rem;
@@ -208,6 +374,12 @@ body {
 
 .section {
   padding: 2.75rem 0;
+  scroll-margin-top: 10rem;
+}
+
+.lesion-card,
+.eval-card {
+  scroll-margin-top: 10rem;
 }
 
 .section-alt {
@@ -260,8 +432,9 @@ body {
 
 .lesion-grid {
   display: grid;
-  gap: 1.35rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  /* One card per row so clinical photos use most of the content width */
+  grid-template-columns: 1fr;
 }
 
 .lesion-card {
@@ -288,13 +461,13 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 260px;
+  max-height: min(70vh, 720px);
   object-fit: contain;
   background: #0b1220;
 }
 
-/* Lesion card: photograph vs Bolognia diagram — button toggles 3D flip (not click on photo) */
-/* Fixed aspect-ratio stage so every morphology panel matches grid column width and aligns row-to-row. */
+/* Lesion card: photograph vs line drawing — button toggles 3D flip (not click on photo) */
+/* Full-width stage so clinical photos occupy a large share of the viewport. */
 .figure-flip {
   position: relative;
   perspective: 960px;
@@ -306,7 +479,9 @@ body {
 .figure-flip-inner {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 10;
+  min-height: min(58vh, 640px);
+  max-height: 72vh;
   transform-style: preserve-3d;
   transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -331,14 +506,14 @@ body {
 .figure-face--front {
   z-index: 2;
   background: #000000;
-  padding: 0.35rem;
+  padding: 0.2rem;
 }
 
 .figure-face--back {
   z-index: 1;
   background: #eef2f7;
   border-bottom: 1px solid #cbd5e1;
-  padding: 0.75rem 0.85rem;
+  padding: 0.35rem;
   transform: rotateY(180deg);
 }
 
@@ -354,10 +529,10 @@ body {
 
 .figure-flip-diagram {
   display: block;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
   max-height: 100%;
-  width: auto;
-  height: auto;
   object-fit: contain;
   object-position: center;
   transform: scaleX(-1);
@@ -381,6 +556,14 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .figure-flip-inner {
     transition: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .figure-flip-inner {
+    aspect-ratio: 4 / 3;
+    min-height: min(42vh, 360px);
+    max-height: 55vh;
   }
 }
 
@@ -580,7 +763,7 @@ body {
 .modal-gallery {
   display: grid;
   gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .modal-figure {
@@ -594,7 +777,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 320px;
+  max-height: 480px;
   object-fit: contain;
 }
 
@@ -848,6 +1031,15 @@ body.modal-open {
 .glossary-term .glossary-morph-term {
   display: inline;
   text-align: left;
+}
+
+.glossary-modal-credit {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+}
+
+.glossary-modal-credit a {
+  color: var(--accent);
 }
 
 @media (max-width: 640px) {

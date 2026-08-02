@@ -247,7 +247,7 @@ def main() -> None:
     base = json.loads(existing_text.split("=", 1)[1].strip().rstrip(";"))
 
     base["meta"]["subtitle"] = (
-        "Structured language for injection-site findings — clinical photographs with Bolognia diagram references."
+        "Structured language for injection-site findings — clinical photographs with line-drawing references."
     )
     base["meta"]["atlasPdf"] = "assets/atlas/Proposed-Gilead-Atlas-Draft-3.pdf"
     base["meta"]["disclaimer"] = (

@@ -112,7 +112,6 @@ window.MEDDRA_GLOSSARY = {
     "pallor",
     "panniculitis",
     "papule",
-    "parasthesia",
     "paresthesia",
     "petechia at",
     "phlebitis",
