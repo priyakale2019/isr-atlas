@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=glossary-cites" />
   </head>
   <body data-atlas-home="index.html">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -48,9 +48,8 @@
             <p class="section-intro">
               Preferred terms and linked hierarchy labels from the MedDRA search export (columns B and D), with
               “injection site” removed; case-insensitive duplicates removed; British spellings merged to American.
-              Terms that match atlas morphology show a photo and definition on hover—click to open the lesion card.
-              Additional open-license reference images (first pass) open on click for selected infection and
-              hypersensitivity terms.
+              Terms that match atlas morphology show a photo and definition on hover. Selected terms with open-license
+              reference images also preview on hover; click for full credit, license, and source site.
             </p>
           </header>
           <div class="glossary-toolbar">
@@ -66,6 +65,7 @@
           </div>
           <ul id="glossary-list" class="glossary-list" aria-label="MedDRA glossary terms"></ul>
           <p id="glossary-source" class="daids-footnote"></p>
+          <div id="glossary-image-sources" class="glossary-image-sources"></div>
         </div>
       </section>
     </main>
@@ -99,10 +99,10 @@
       </div>
     </div>
 
-    <script src="data/lesions.js"></script>
-    <script src="data/glossary.js"></script>
-    <script src="data/glossary-images.js"></script>
-    <script src="morph-links.js"></script>
-    <script src="glossary.js" defer></script>
+    <script src="data/lesions.js?v=glossary-hover"></script>
+    <script src="data/glossary.js?v=glossary-hover"></script>
+    <script src="data/glossary-images.js?v=glossary-hover"></script>
+    <script src="morph-links.js?v=glossary-hover"></script>
+    <script src="glossary.js?v=glossary-hover" defer></script>
   </body>
 </html>

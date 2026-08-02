@@ -248,6 +248,8 @@
     ensurePopoverListeners();
     root.querySelectorAll(".morph-term").forEach((btn) => {
       if (btn.dataset.morphBound === "true") return;
+      // Glossary cited-image terms manage their own hover/click popover + modal.
+      if (!btn.dataset.lesionId || btn.classList.contains("glossary-image-term")) return;
       btn.dataset.morphBound = "true";
 
       btn.addEventListener("mouseenter", () => {

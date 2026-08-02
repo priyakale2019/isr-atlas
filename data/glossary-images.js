@@ -1,19 +1,25 @@
 /**
- * First-pass glossary reference images for MedDRA terms not covered (or poorly
- * covered) by atlas morphology cards. Prefer Wikimedia Commons / public-domain
- * clinical photographs that could plausibly follow an injection-site reaction.
- *
- * Review before expanding: confirm clinical relevance and retain attribution.
+ * Curated open-license reference images for MedDRA glossary terms that may
+ * appear after injection-site reactions. Prefer Wikimedia Commons / public-domain
+ * clinical photographs. Always retain credit, license, and source site.
  */
 window.GLOSSARY_IMAGES = {
   note:
-    "Curated open-license reference images (first pass). Prefer atlas morphology photos when a term maps to a lesion card.",
+    "Selected terms include open-license reference images. Hover a linked term to preview the image with citation; click for full credit, license, and source site. Atlas morphology photos are used when a term maps to a lesion card.",
+  sources: [
+    {
+      site: "Wikimedia Commons",
+      url: "https://commons.wikimedia.org/",
+      note: "Open-license clinical and educational photographs (CC BY / CC BY-SA / public domain).",
+    },
+  ],
   byTerm: {
     cellulitis: {
       url: "assets/glossary/cellulitis.jpg",
       caption: "Cellulitis of the leg",
       credit: "Pshawnoah",
       license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Cellulitis_Of_The_Leg.jpg",
     },
     "bacterial infectious disorders": {
@@ -21,6 +27,7 @@ window.GLOSSARY_IMAGES = {
       caption: "Cellulitis of the leg (illustrative soft-tissue infection)",
       credit: "Pshawnoah",
       license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Cellulitis_Of_The_Leg.jpg",
     },
     infection: {
@@ -28,27 +35,47 @@ window.GLOSSARY_IMAGES = {
       caption: "Cellulitis of the leg (illustrative soft-tissue infection)",
       credit: "Pshawnoah",
       license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Cellulitis_Of_The_Leg.jpg",
     },
     urticaria: {
       url: "assets/glossary/urticaria.jpg",
-      caption: "Urticaria (historical teaching plate)",
-      credit: "George Henry Fox, 1886",
+      caption: "Urticaria (historical teaching plate, Fox 1886)",
+      credit: "George Henry Fox",
       license: "Public domain",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Urticaria.jpg",
     },
     hives: {
       url: "assets/glossary/urticaria.jpg",
-      caption: "Urticaria / hives (historical teaching plate)",
-      credit: "George Henry Fox, 1886",
+      caption: "Urticaria / hives (historical teaching plate, Fox 1886)",
+      credit: "George Henry Fox",
       license: "Public domain",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Urticaria.jpg",
     },
     wheal: {
       url: "assets/glossary/urticaria.jpg",
-      caption: "Urticaria with wheals (historical teaching plate)",
-      credit: "George Henry Fox, 1886",
+      caption: "Urticaria with wheals (historical teaching plate, Fox 1886)",
+      credit: "George Henry Fox",
       license: "Public domain",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Urticaria.jpg",
+    },
+    "allergic reaction": {
+      url: "assets/glossary/urticaria.jpg",
+      caption: "Urticaria (illustrative allergic cutaneous reaction)",
+      credit: "George Henry Fox",
+      license: "Public domain",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Urticaria.jpg",
+    },
+    hypersensitivity: {
+      url: "assets/glossary/urticaria.jpg",
+      caption: "Urticaria (illustrative hypersensitivity cutaneous reaction)",
+      credit: "George Henry Fox",
+      license: "Public domain",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Urticaria.jpg",
     },
     vasculitis: {
@@ -56,6 +83,7 @@ window.GLOSSARY_IMAGES = {
       caption: "Vasculitis involving the legs",
       credit: "Diasbuenasio",
       license: "CC0",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Vasculitis.jpg",
     },
     alopecia: {
@@ -63,7 +91,201 @@ window.GLOSSARY_IMAGES = {
       caption: "Alopecia areata (illustrative localized hair loss)",
       credit: "Thirunavukkarasye-Raveendran",
       license: "CC BY 4.0",
+      sourceSite: "Wikimedia Commons",
       sourcePage: "https://commons.wikimedia.org/wiki/File:Alopecia_areata_1.jpg",
+    },
+    bruising: {
+      url: "assets/glossary/bruise.jpg",
+      caption: "Bruise (ecchymosis) with yellowish-green evolution",
+      credit: "Bejinhan",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Bruise.jpg",
+    },
+    ecchymosis: {
+      url: "assets/glossary/bruise.jpg",
+      caption: "Bruise / ecchymosis",
+      credit: "Bejinhan",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Bruise.jpg",
+    },
+    bleeding: {
+      url: "assets/glossary/bruise.jpg",
+      caption: "Cutaneous bruising after soft-tissue hemorrhage",
+      credit: "Bejinhan",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Bruise.jpg",
+    },
+    "bleeding spot": {
+      url: "assets/glossary/bruise.jpg",
+      caption: "Cutaneous bruising / hemorrhagic spot",
+      credit: "Bejinhan",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Bruise.jpg",
+    },
+    hematoma: {
+      url: "assets/glossary/bruise.jpg",
+      caption: "Bruise illustrating soft-tissue hemorrhage (related to hematoma)",
+      credit: "Bejinhan",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Bruise.jpg",
+    },
+    hemorrhage: {
+      url: "assets/glossary/bruise.jpg",
+      caption: "Cutaneous hemorrhage appearing as bruising",
+      credit: "Bejinhan",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Bruise.jpg",
+    },
+    blisters: {
+      url: "assets/glossary/blister.jpg",
+      caption: "Blister (fluid-filled epidermal elevation)",
+      credit: "Emmanuel Boutet (via Flickr)",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Blister.jpg",
+    },
+    vesicles: {
+      url: "assets/glossary/blister.jpg",
+      caption: "Blister / vesicle",
+      credit: "Emmanuel Boutet (via Flickr)",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Blister.jpg",
+    },
+    "vesicles at": {
+      url: "assets/glossary/blister.jpg",
+      caption: "Blister / vesicle",
+      credit: "Emmanuel Boutet (via Flickr)",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Blister.jpg",
+    },
+    "bullous eruption at": {
+      url: "assets/glossary/blister.jpg",
+      caption: "Blister (illustrative bullous elevation)",
+      credit: "Emmanuel Boutet (via Flickr)",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Blister.jpg",
+    },
+    keloid: {
+      url: "assets/glossary/keloid.jpg",
+      caption: "Keloid formed after traumatic injury / surgery",
+      credit: "Michael Rodger",
+      license: "CC BY 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Keloid.jpg",
+    },
+    scar: {
+      url: "assets/glossary/keloid.jpg",
+      caption: "Raised scar / keloid after healing",
+      credit: "Michael Rodger",
+      license: "CC BY 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Keloid.jpg",
+    },
+    fibrosis: {
+      url: "assets/glossary/keloid.jpg",
+      caption: "Fibrotic raised scar (keloid)",
+      credit: "Michael Rodger",
+      license: "CC BY 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Keloid.jpg",
+    },
+    sclerosis: {
+      url: "assets/glossary/keloid.jpg",
+      caption: "Firm scar tissue (illustrative fibrotic change)",
+      credit: "Michael Rodger",
+      license: "CC BY 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage: "https://commons.wikimedia.org/wiki/File:Keloid.jpg",
+    },
+    erythema: {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythematous lesions on the hand (erythema multiforme minor)",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    redness: {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Cutaneous erythema / redness",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    "joint erythema": {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythema (illustrative cutaneous redness)",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    "joint redness": {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythema (illustrative cutaneous redness)",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    "vascular redness": {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythema (illustrative cutaneous redness)",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    rash: {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythematous rash on the hand",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    "rash at site of injection": {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythematous rash (illustrative)",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    inflammation: {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Inflammatory erythematous skin lesions",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
+    },
+    hyperemia: {
+      url: "assets/glossary/erythema.jpg",
+      caption: "Erythema / hyperemia of the skin",
+      credit: "James Heilman, MD",
+      license: "CC BY-SA 3.0",
+      sourceSite: "Wikimedia Commons",
+      sourcePage:
+        "https://commons.wikimedia.org/wiki/File:Erythema_multiforme_minor_of_the_hand.jpg",
     },
   },
 };
