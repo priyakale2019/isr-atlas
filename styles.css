@@ -50,7 +50,7 @@ body {
 }
 
 .wrap {
-  width: min(1200px, 100% - 2.5rem);
+  width: min(1120px, 100% - 2.5rem);
   margin-inline: auto;
 }
 
@@ -432,9 +432,9 @@ body {
 
 .lesion-grid {
   display: grid;
-  gap: 2rem;
-  /* One card per row so clinical photos use most of the content width */
-  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  /* Multi-up gallery: several lesion cards per row on wide screens */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
 }
 
 .lesion-card {
@@ -461,13 +461,12 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  max-height: min(70vh, 720px);
+  max-height: 420px;
   object-fit: contain;
   background: #0b1220;
 }
 
 /* Lesion card: photograph vs line drawing — button toggles 3D flip (not click on photo) */
-/* Full-width stage so clinical photos occupy a large share of the viewport. */
 .figure-flip {
   position: relative;
   perspective: 960px;
@@ -479,9 +478,8 @@ body {
 .figure-flip-inner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 10;
-  min-height: min(58vh, 640px);
-  max-height: 72vh;
+  aspect-ratio: 3 / 2;
+  min-height: 220px;
   transform-style: preserve-3d;
   transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -527,6 +525,7 @@ body {
   object-position: center;
 }
 
+/* Scale line drawings up to fill the flip panel (they are small source crops) */
 .figure-flip-diagram {
   display: block;
   width: 100%;
@@ -556,14 +555,6 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .figure-flip-inner {
     transition: none;
-  }
-}
-
-@media (max-width: 640px) {
-  .figure-flip-inner {
-    aspect-ratio: 4 / 3;
-    min-height: min(42vh, 360px);
-    max-height: 55vh;
   }
 }
 
