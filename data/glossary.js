@@ -113,7 +113,7 @@ window.MEDDRA_GLOSSARY = {
     "panniculitis",
     "papule",
     "paresthesia",
-    "petechia at",
+    "petechiae",
     "phlebitis",
     "photosensitivity reaction",
     "pigmentation changes",

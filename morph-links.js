@@ -50,7 +50,7 @@
     ["bleeding spot", "ecchymosis"],
     ["hematoma", "ecchymosis"],
     ["hemorrhage", "ecchymosis"],
-    ["petechia at", "ecchymosis"],
+    ["petechiae", "ecchymosis"],
     ["macule", "macule"],
     ["patch", "patch"],
     ["papule", "papule"],
