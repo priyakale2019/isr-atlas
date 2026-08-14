@@ -1,6 +1,7 @@
 window.FDA_TOXICITY_ISR = {
   title: "FDA Toxicity Grading Scale",
   sourceNote: "FDA toxicity grading for local reactions to injectable products (local reaction table).",
+  sourceUrl: "assets/grading/fda-toxicity-grading-scale-2025.pdf",
   columns: [
     { id: "parameter", label: "Local reaction to injectable product" },
     { id: "grade1", label: "Mild (Grade 1)" },

@@ -79,6 +79,9 @@
     diag.setAttribute("role", "presentation");
     diag.loading = "eager";
     diag.decoding = "async";
+    if (window.PSK_REFERENCE?.usesGraphicImage?.(entry.id)) {
+      diag.classList.add("figure-flip-diagram--natural");
+    }
     const defPath = window.PSK_REFERENCE?.defaultDiagramPath || "assets/bolognia-crops/_default.png";
     diag.addEventListener("error", () => {
       if (diag.src.indexOf("_default") === -1) diag.src = defPath;
@@ -117,50 +120,59 @@
 
   function buildAtlasCaptionBox(primary) {
     const cap = (primary.caption || "").trim();
-    const cred = (primary.credit || "").trim();
-    const lic = (primary.license || "").trim();
-    if (!cap && !cred) return null;
+    if (!cap) return null;
 
     const box = document.createElement("aside");
     box.className = "atlas-caption-box";
-
-    if (cap) {
-      const main = document.createElement("p");
-      main.className = "atlas-caption-text";
-      main.textContent = cap;
-      box.appendChild(main);
-    }
-
-    if (cred) {
-      const sub = document.createElement("p");
-      sub.className = "atlas-caption-credit";
-      sub.textContent = lic ? `${cred} (${lic})` : cred;
-      box.appendChild(sub);
-    }
-
+    const main = document.createElement("p");
+    main.className = "atlas-caption-text";
+    main.textContent = cap;
+    box.appendChild(main);
     return box;
+  }
+
+  function fillCitation(el, cred) {
+    const trimmed = cred.trim();
+    const urlOnly = /^https?:\/\/\S+$/i.test(trimmed);
+    if (urlOnly) {
+      const a = document.createElement("a");
+      a.href = trimmed;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = trimmed;
+      el.appendChild(a);
+      return;
+    }
+    el.textContent = trimmed;
   }
 
   function openGallery(entry, allImages) {
     modalTitle.textContent = `${entry.term} — image gallery`;
     modalGallery.innerHTML = "";
+    const citeOnHover = data.primaryLesions.some((item) => item.id === entry.id);
     allImages.forEach((shot) => {
       const fig = document.createElement("figure");
       fig.className = "modal-figure";
+      const media = document.createElement("div");
+      media.className = "modal-figure-media";
       const img = document.createElement("img");
       img.src = shot.url;
       img.alt = shot.caption || entry.term;
       bindImageFallback(img);
+      media.appendChild(img);
+      const cred = (shot.credit || "").trim();
+      if (citeOnHover && cred) {
+        const tip = document.createElement("p");
+        tip.className = "modal-cite-hover";
+        fillCitation(tip, cred);
+        media.tabIndex = 0;
+        media.setAttribute("aria-label", `Citation: ${cred}`);
+        media.appendChild(tip);
+      }
+      fig.appendChild(media);
       const cap = document.createElement("figcaption");
       cap.className = "modal-caption";
-      const cred = (shot.credit || "").trim();
-      const lic = (shot.license || "").trim();
-      const tail =
-        cred || lic
-          ? `<br /><span style="display:block;margin-top:0.35rem;font-size:0.82rem;">${cred}${cred && lic ? " — " : ""}${lic}</span>`
-          : "";
-      cap.innerHTML = `${shot.caption}${tail}`;
-      fig.appendChild(img);
+      cap.textContent = shot.caption || "";
       fig.appendChild(cap);
       modalGallery.appendChild(fig);
     });

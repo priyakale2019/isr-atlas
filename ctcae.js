@@ -48,6 +48,16 @@
     bindTermInteractions(defEl);
   }
   if (sourceEl && data.sourceNote) {
-    sourceEl.textContent = data.sourceNote;
+    if (data.sourceUrl) {
+      const a = document.createElement("a");
+      a.className = "source-term-link";
+      a.href = data.sourceUrl;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = "CTCAE";
+      sourceEl.replaceChildren(a, document.createTextNode(` — ${data.sourceNote}`));
+    } else {
+      sourceEl.textContent = data.sourceNote;
+    }
   }
 })();

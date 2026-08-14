@@ -2,6 +2,7 @@ window.DAIDS_CRITERIA = {
   title: "Site Reactions to Injections and Infusions",
   sourceNote:
     "Division of AIDS (DAIDS) Table for Grading the Severity of Adult and Pediatric Adverse Events, Version 2.1 (March 2017).",
+  sourceUrl: "assets/grading/daids-grading-v2.1.pdf",
   footnote:
     "Injection Site Erythema or Redness should be evaluated and graded using the greatest single diameter or measured surface area.",
   columns: [

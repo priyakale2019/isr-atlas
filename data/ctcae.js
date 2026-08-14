@@ -1,6 +1,7 @@
 window.CTCAE_ISR = {
   title: "Common Terminology Criteria for Adverse Events (CTCAE) — Injection Site Reactions",
-  sourceNote: "CTCAE v5.0 (2017); adverse event: Injection site reaction.",
+  sourceNote: "CTCAE v6.0 (January 2026); adverse event: Injection site reaction.",
+  sourceUrl: "assets/grading/ctcae-v6-jan-2026.pdf",
   definition:
     "A disorder characterized by an intense adverse reaction (usually immunologic) developing at the site of an injection.",
   columns: [

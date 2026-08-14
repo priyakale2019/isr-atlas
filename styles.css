@@ -552,6 +552,10 @@ body {
   transform: scaleX(-1);
 }
 
+.figure-flip-diagram--natural {
+  transform: none;
+}
+
 .figure-flip-toolbar {
   min-height: 2.75rem;
   box-sizing: border-box;
@@ -779,12 +783,53 @@ body {
   background: #0b1220;
 }
 
+.modal-figure-media {
+  position: relative;
+  background: #0b1220;
+}
+
+.modal-figure-media:focus,
+.modal-figure-media:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
 .modal-figure img {
   display: block;
   width: 100%;
   height: auto;
   max-height: 480px;
   object-fit: contain;
+}
+
+.modal-cite-hover {
+  position: absolute;
+  left: 0.55rem;
+  right: 0.55rem;
+  bottom: 0.55rem;
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  max-height: 48%;
+  overflow: auto;
+  background: rgba(15, 23, 42, 0.92);
+  color: #f8fafc;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+.modal-figure-media:hover .modal-cite-hover,
+.modal-figure-media:focus-within .modal-cite-hover {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-cite-hover a {
+  color: #bae6fd;
+  word-break: break-word;
 }
 
 .modal-caption {
@@ -944,6 +989,47 @@ body.modal-open {
 
 .grading-back a:hover,
 .grading-back a:focus-visible {
+  text-decoration: underline;
+}
+
+.source-doc {
+  margin: 0.65rem 0 0;
+  font-size: 0.95rem;
+}
+
+.source-term-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.18em;
+}
+
+h2 .source-term-link {
+  color: inherit;
+}
+
+.source-term-link:hover,
+.source-term-link:focus-visible {
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border-radius: 2px;
+  outline: none;
+}
+
+.source-doc a,
+.daids-footnote a,
+.daids-source a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.source-doc a:hover,
+.source-doc a:focus-visible,
+.daids-footnote a:hover,
+.daids-footnote a:focus-visible,
+.daids-source a:hover,
+.daids-source a:focus-visible {
   text-decoration: underline;
 }
 

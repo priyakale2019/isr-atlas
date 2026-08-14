@@ -50,7 +50,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image1.png",
           "caption": "Poorly demarcated pink macules coalescing into patch",
-          "credit": "",
+          "credit": "Schindewolf, M., Schwaner, S., Wolter, M., Kroll, H., Recke, A., Kaufmann, R., Boehncke, W.-H., Lindhoff-Last, E., & Ludwig, R. J. (2009). Incidence and causes of heparin-induced skin lesions. Canadian Medical Association Journal, 181(8), 477–481. https://doi.org/10.1503/cmaj.081729",
           "license": ""
         }
       ],
@@ -58,7 +58,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image2.png",
           "caption": "Thin pink plaque with central bullae",
-          "credit": "",
+          "credit": "Winfield H, Lain E, Horn T, Hoskyn J. Eosinophilic Cellulitislike Reaction to Subcutaneous Etanercept Injection. Arch Dermatol. 2006;142(2):218–220. doi:10.1001/archderm.142.2.218",
           "license": ""
         }
       ]
@@ -72,7 +72,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image3.png",
           "caption": "Well-circumscribed pink edematous annular plaque",
-          "credit": "",
+          "credit": "Neel, N. F., Ghobara, Y., & Turkmani, M. (2019). Liraglutide-induced injection site reaction. Journal of Dermatology and Dermatologic Surgery, 23(2), 97–98. https://doi.org/10.4103/jdds.jdds_5_19",
           "license": ""
         }
       ],
@@ -80,7 +80,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image4.png",
           "caption": "Poorly demarcated pink plaque",
-          "credit": "",
+          "credit": "https://www.reddit.com/r/AskDocs/comments/178wyw5/6_year_old_allergic_reaction_to_flu_shot/",
           "license": ""
         }
       ]
@@ -94,7 +94,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image5.png",
           "caption": "Pink edematous papule with surrounding erythema",
-          "credit": "",
+          "credit": "https://www.usatoday.com/story/life/health-wellness/2025/05/11/what-is-ppd/83397346007/",
           "license": ""
         }
       ],
@@ -102,13 +102,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image6.png",
           "caption": "Clustered wheals with surrounding erythematous patch",
-          "credit": "",
+          "credit": "https://www.goodrx.com/health-topic/dermatology/what-are-chronic-hives-urticaria",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image7.png",
           "caption": "Pink plaque",
-          "credit": "",
+          "credit": "https://www.reddit.com/r/Zepbound/comments/1epc3ip/injection_site_reactions_help/",
           "license": ""
         }
       ]
@@ -122,7 +122,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image9.png",
           "caption": "(A) Poorly demarcated pink plaque; (B) Well-demarcated annular pink plaque",
-          "credit": "",
+          "credit": "Kroumpouzos, G., Paroikaki, M. E., Yumeen, S., Bhargava, S., & Mylonakis, E. (2022). Cutaneous Complications of mRNA and AZD1222 COVID-19 Vaccines: A Worldwide Review. Microorganisms, 10(3), 624. https://doi.org/10.3390/microorganisms10030624",
           "license": ""
         }
       ],
@@ -130,19 +130,19 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image10.png",
           "caption": "Poorly demarcated pink plaque",
-          "credit": "",
+          "credit": "Gregoriou, S., Kleidona, I. A., Tsimpidakis, A., Nicolaidou, E., Stratigos, A., & Rigopoulos, D. (2021). 'COVID vaccine arm' may present after both mRNA vaccines vaccination. Journal of the European Academy of Dermatology and Venereology : JEADV, 35(12), e867–e868. https://doi.org/10.1111/jdv.17614",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image11.png",
           "caption": "Poorly demarcated thin pink plaque with neighboring ecchymosis",
-          "credit": "",
+          "credit": "Clelland, S., & Hunek, J. R. (2005). Etanercept injection site reaction. Dermatology nursing, 17(5), 375.",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image8.png",
           "caption": "Poorly demarcated pink plaque with central eschar",
-          "credit": "",
+          "credit": "https://jddonline.com/articles/injection-site-necrosis-and-ulceration-following-vaccination-in-an-adult-patient-S1545961618P0364X",
           "license": ""
         }
       ]
@@ -156,7 +156,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image12.png",
           "caption": "Poorly demarcated pink plaque",
-          "credit": "",
+          "credit": "https://jddonline.com/articles/enfuvirtide-and-cutaneous-injection-site-reactions-S1545961612E0035X",
           "license": ""
         }
       ],
@@ -164,19 +164,19 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image13.png",
           "caption": "Poorly demarcated lichenified hyperpigmented plaque",
-          "credit": "",
+          "credit": "Aróstegui Aguilar, J., Diago, A., Carrillo Gijón, R., Fernández Figueras, M., Fraga, J., García Herrera, A., Garrido, M., Idoate Gastearena, M. Á., Christian Laga, Á., Llamas-Velasco, M., Martínez Campayo, N., Monteagudo, C., Onrubia, J., Pérez Muñoz, N., Ríos-Martín, J. J., Ríos-Viñuela, E., Rodríguez Peralto, J. L., Rozas Muñoz, E., Sanmartín, O., Santonja, C., … Fernandez-Flores, A. (2021). Granulomas in Dermatopathology: Principal Diagnoses - Part 1. Granulomas en dermatopatología: principales entidades. Parte I. Actas dermo-sifiliograficas, S0001-7310(21)00139-3. Advance online publication. https://doi.org/10.1016/j.ad.2021.04.002",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image14.png",
           "caption": "Pink nodules",
-          "credit": "",
+          "credit": "Riswold K, Flynn V, Persistent injection site nodules from exenatide: Successful treatment with intralesional triamcinolone\nJAAD Case Reports, 2018; 4, 830-832",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image15.png",
           "caption": "Hyperpigmented patches interspersed with pink papules",
-          "credit": "",
+          "credit": "Neel, Nada & Ghobara, Yasser & Turkmani, Mohammed. (2019). Liraglutide-Induced Injection Site Reaction. Journal of Dermatology and Dermatologic Surgery. 23. 97-98. 10.4103/jdds.jdds_5_19.",
           "license": ""
         }
       ]
@@ -190,7 +190,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image16.png",
           "caption": "Geometric ulcer with fibrinous debris with surrounding pink plaques and papules",
-          "credit": "",
+          "credit": "Phan, M., Linfante, A., & Kroger, K. (2020). Ulcerative injection-site reaction associated with dupilumab therapy. JAAD case reports, 6(12), 1350–1352. https://doi.org/10.1016/j.jdcr.2020.09.022",
           "license": ""
         }
       ],
@@ -198,19 +198,19 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image17.png",
           "caption": "Well demarcated annular pink patch with central geometric eschar",
-          "credit": "",
+          "credit": "Yang, C. H., Chen, C. H., & Chan, H. L. (2002). Skin necrosis following a recombinant interferon-beta-1b injection. Chang Gung medical journal, 25(11), 774–777.",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image18.png",
           "caption": "Poorly demarcated edematous pink plaque with central pink papule",
-          "credit": "",
+          "credit": "Huang, S., Cheng, F., Guo, H., & Zheng, S. (2025). Clinical Characteristics and Outcomes of Severe Adverse Reactions to Bacille Calmette-Guérin (BCG) Vaccination in China: A Single-Center Retrospective Study. Sage open pediatrics, 12, 30502225251346345. https://doi.org/10.1177/30502225251346345",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image8.png",
           "caption": "Poorly demarcated pink plaque with central eschar",
-          "credit": "",
+          "credit": "https://jddonline.com/articles/injection-site-necrosis-and-ulceration-following-vaccination-in-an-adult-patient-S1545961618P0364X",
           "license": ""
         }
       ]
@@ -224,7 +224,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image19.png",
           "caption": "Poorly demarcated pink plaque with central ulceration and eschar",
-          "credit": "",
+          "credit": "Perli, D., Martone, C., & Rapose, A. (2012). Naltrexone-induced Nicolau syndrome masquerading as cutaneous abscess. BMJ case reports, 2012, bcr2012007785. https://doi.org/10.1136/bcr-2012-007785",
           "license": ""
         }
       ],
@@ -232,13 +232,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image20.png",
           "caption": "Poorly demarcated pink patch with central papule and scattered satellite pink papules",
-          "credit": "",
+          "credit": "https://www.cdc.gov/mrsa/media/pdfs/Physician-Flyer-P.pdf",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image21.png",
           "caption": "Pink nodule with surrounding erythema",
-          "credit": "",
+          "credit": "Huang, S., Cheng, F., Guo, H., & Zheng, S. (2025). Clinical Characteristics and Outcomes of Severe Adverse Reactions to Bacille Calmette-Guérin (BCG) Vaccination in China: A Single-Center Retrospective Study. Sage open pediatrics, 12, 30502225251346345. https://doi.org/10.1177/30502225251346345",
           "license": ""
         }
       ]
@@ -252,7 +252,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image22.png",
           "caption": "Erythematous linear plaque along vascular tract",
-          "credit": "",
+          "credit": "An unusual reaction to IV pethidine - A Case Report | British Journal of Medical Practitioners. (2026). Bjmp.org. https://www.bjmp.org/content/unusual-reaction-iv-pethidine-case-report",
           "license": ""
         }
       ],
@@ -260,13 +260,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image23.png",
           "caption": "Erythematous linear plaque along vascular tract",
-          "credit": "",
+          "credit": "Azimi-Ghomi, O., & Napier, A. (2021). \"Getting Under Your Skin\": First Reported Case of Transient Reactive Phlebitis Involving Vancomycin Infusion Therapy. Cureus, 13(10), e18471. https://doi.org/10.7759/cureus.18471",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image24.png",
           "caption": "Hemorrhagic papules with surrounding erythema and edema",
-          "credit": "",
+          "credit": "Norton, L., Ottoboni, L. K., Varady, A., Yang-Lu, C. Y., Becker, N., Cotter, T., Pummer, E., Haynes, A., Forsey, L., Matsuda, K., & Wang, P. (2013). Phlebitis in amiodarone administration: incidence, contributing factors, and clinical implications. American journal of critical care : an official publication, American Association of Critical-Care Nurses, 22(6), 498–505. https://doi.org/10.4037/ajcc2013460",
           "license": ""
         }
       ]
@@ -280,7 +280,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image25.png",
           "caption": "Ecchymosis with hemorrhagic bulla",
-          "credit": "",
+          "credit": "Jun HJ, Ko HR, Lee JY, Lee YB, Kim JW, Yu DS. Injection-Site Reaction Following 5-Azacitidine Injection. Ann Dermatol. 2014 Oct;26(5):669-670. https://doi.org/10.5021/ad.2014.26.5.669",
           "license": ""
         }
       ],
@@ -288,13 +288,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image26.png",
           "caption": "Ecchymosis",
-          "credit": "",
+          "credit": "Leclère, Franck Marie & Vögelin, Esther & Mordon, Serge & Alcolea López, Justo Miguel & Urdiales, Fernando & Unglaub, Frank & Trelles, Mario. (2012). Nonanimal Stabilized Hyaluronic Acid for Tissue Augmentation of the Dorsal Hands: A Prospective Study on 38 Patients. Aesthetic plastic surgery. 36. 10.1007/s00266-012-9974-2.",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image27.png",
           "caption": "Poorly demarcated thin pink plaque with neighboring ecchymosis",
-          "credit": "",
+          "credit": "Clelland, S., & Hunek, J. R. (2005). Etanercept injection site reaction. Dermatology nursing, 17(5), 375.",
           "license": ""
         }
       ]
@@ -308,7 +308,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image29.png",
           "caption": "Small group of pustules with surrounding erythema",
-          "credit": "",
+          "credit": "https://www.lji.org/news-events/news/post/once-upon-a-bcg-vaccine/",
           "license": ""
         }
       ],
@@ -316,13 +316,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image30.png",
           "caption": "Linear clustered pustules at edge of erythematous plaque",
-          "credit": "",
+          "credit": "Wong, S. R., Licata, C. J., & Signoff, E. D. (2024). Steroid use triggers severe psoriatic reaction. Cleveland Clinic journal of medicine, 91(3), 147–149. https://doi.org/10.3949/ccjm.91a.23060",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image28.png",
           "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhagic vesicle with surrounding erythema; hemorrhagic crust",
-          "credit": "",
+          "credit": "Maurer, D. M., Harrington, B., & Lane, J. M. (2003). Smallpox vaccine: contraindications, administration, and adverse reactions. American family physician, 68(5), 889–896.",
           "license": ""
         }
       ]
@@ -336,7 +336,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image31.png",
           "caption": "Vesicle within surrounding edematous pink plaque",
-          "credit": "",
+          "credit": "Wauters, R. H., Hernandez, C. L., & Petersen, M. M. (2017). An Atypical Local Vesicular Reaction to the Yellow Fever Vaccine. Vaccines, 5(3), 26. https://doi.org/10.3390/vaccines5030026",
           "license": ""
         }
       ],
@@ -344,13 +344,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image32.png",
           "caption": "Clustered vesicles interspersed with hemorrhagic and serous crust with erythematous base",
-          "credit": "",
+          "credit": "Ashod Kherlopian. (2023). Painful vesicles following vaccination. Medicine Today, 29. https://medicinetoday.com.au/mt/supplements/regular-series/painful-vesicles-following-vaccination",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image33.jpeg",
           "caption": "Pink annular edematous plaque with central vesiculation",
-          "credit": "",
+          "credit": "Córdoba, S., Rojas, E., Garrido-Ríos, A., & Borbujo, J. (2017). Intense Local Reaction at the Sites of Injection of Lipolytic Mesotherapy. Reacción local intensa en zonas de inyección de mesoterapia lipolítica. Actas dermo-sifiliograficas, 108(10), 958–959. https://doi.org/10.1016/j.ad.2017.02.027",
           "license": ""
         }
       ]
@@ -364,7 +364,7 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image34.png",
           "caption": "Bullae with surrounding vesicles within poorly demarcated pink plaque",
-          "credit": "",
+          "credit": "Wauters, R. H., Hernandez, C. L., & Petersen, M. M. (2017). An Atypical Local Vesicular Reaction to the Yellow Fever Vaccine. Vaccines, 5(3), 26. https://doi.org/10.3390/vaccines5030026",
           "license": ""
         }
       ],
@@ -372,13 +372,13 @@ window.LESION_DATA = {
         {
           "url": "assets/atlas/media/image35.png",
           "caption": "Ecchymosis with hemorrhagic bulla",
-          "credit": "",
+          "credit": "Jun HJ, Ko HR, Lee JY, Lee YB, Kim JW, Yu DS. Injection-Site Reaction Following 5-Azacitidine Injection. Ann Dermatol. 2014 Oct;26(5):669-670. https://doi.org/10.5021/ad.2014.26.5.669",
           "license": ""
         },
         {
           "url": "assets/atlas/media/image36.png",
           "caption": "Thin pink plaque with central bullae",
-          "credit": "",
+          "credit": "Winfield H, Lain E, Horn T, Hoskyn J. Eosinophilic Cellulitislike Reaction to Subcutaneous Etanercept Injection. Arch Dermatol. 2006;142(2):218–220. doi:10.1001/archderm.142.2.218",
           "license": ""
         }
       ]
