@@ -35,7 +35,10 @@
       const card = document.createElement("article");
       card.className = "eval-card";
       card.id = section.id;
-      card.innerHTML = `<h3>${section.heading}</h3><p>${section.body}</p>`;
+      const heading = section.href
+        ? `<h3><a class="eval-card-link" href="${section.href}">${section.heading}</a></h3>`
+        : `<h3>${section.heading}</h3>`;
+      card.innerHTML = `${heading}<p>${section.body}</p>`;
       evaluationRoot.appendChild(card);
     });
   }

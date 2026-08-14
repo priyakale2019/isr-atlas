@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=multi-gallery" />
+    <link rel="stylesheet" href="styles.css?v=example-morph" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -25,14 +25,14 @@
           <div>
             <p class="eyebrow">Clinical education</p>
             <h1 class="site-title">Injection site reactions</h1>
-            <p class="site-subtitle">Structured dermatologic description for documentation and reporting</p>
+            <p class="site-subtitle">Language for documenting injection-site findings</p>
           </div>
         </div>
         <nav class="header-nav" aria-label="Primary">
-          <a href="#tutorial">Tutorial</a>
+          <a href="#example">Example</a>
           <a href="#framework">Evaluation</a>
-          <a href="#primary">Primary lesions</a>
-          <a href="#secondary">Secondary lesions</a>
+          <a href="#primary">Primary morphology</a>
+          <a href="#secondary">Secondary morphology</a>
           <a href="#template">Documentation</a>
           <a href="daids.html">DAIDS criteria</a>
           <a href="ctcae.html">CTCAE</a>
@@ -43,7 +43,8 @@
     </header>
 
     <main id="main">
-      <section id="tutorial" class="tutorial">
+      <section id="example" class="tutorial">
+        <span id="tutorial"></span>
         <div class="wrap tutorial-grid">
           <figure class="tutorial-figure">
             <img
@@ -55,7 +56,7 @@
           </figure>
 
           <div class="tutorial-copy">
-            <p class="eyebrow tutorial-eyebrow">Tutorial</p>
+            <p class="eyebrow tutorial-eyebrow">Example</p>
             <h2 class="tutorial-title">How to describe an injection site reaction</h2>
 
             <p class="tutorial-example-label">Example description</p>
@@ -95,8 +96,8 @@
               <h3 class="callout-title">Examination tips</h3>
               <ul class="callout-list">
                 <li>Use bright, neutral lighting; tangential light helps surface texture.</li>
-                <li>Measure longest and perpendicular axes with a ruler; photograph with scale when feasible.</li>
-                <li>Palpate for depth, warmth, fluctuance, and tenderness—especially when infection is a concern.</li>
+                <li>Measure both axes; photograph with a scale when possible.</li>
+                <li>Palpate for depth, warmth, fluctuance, and tenderness.</li>
               </ul>
             </aside>
           </div>
@@ -108,8 +109,7 @@
           <header class="section-head">
             <h2>How to evaluate a lesion</h2>
             <p class="section-intro">
-              Work through the same sequence for each encounter: morphology first, then distribution and size, then
-              surface detail and patient-reported symptoms.
+              Start with morphology, then location and size, then surface detail and symptoms.
             </p>
           </header>
           <div id="evaluation-cards" class="card-grid"></div>
@@ -121,9 +121,7 @@
           <header class="section-head">
             <h2>Primary morphology</h2>
             <p class="section-intro">
-              Primary lesions describe the fundamental pattern before secondary change. Each card opens on the clinical
-              photograph; use the button to reveal the matching line drawing. Figure notes from the workbook appear in
-              the bordered panel under the morphologic definition—separate from the definition text.
+              The fundamental lesion type before secondary change. Flip a card to see the matching line drawing.
             </p>
           </header>
           <div id="primary-list" class="lesion-grid"></div>
@@ -135,8 +133,7 @@
           <header class="section-head">
             <h2>Secondary morphology</h2>
             <p class="section-intro">
-              Secondary changes reflect evolution, trauma, infection, or chronicity superimposed on the primary lesion.
-              Flip the image to see a graphic image depiction!
+              Surface change from healing, trauma, or infection. Flip a card to see the matching line drawing.
             </p>
           </header>
           <div id="secondary-list" class="lesion-grid"></div>
@@ -156,11 +153,7 @@
         <div class="wrap">
           <footer class="page-footer">
             <p id="disclaimer" class="disclaimer"></p>
-            <p class="footer-note">
-              Figures and definitions are generated from the atlas workbook via
-              <code>scripts/extract_gilead_atlas.py</code> (paths configurable at top of that script). The legacy helper
-              <code>scripts/import_excel_to_lesions.py</code> remains available for other column layouts.
-            </p>
+            <p class="footer-note">Figures and definitions are from the atlas workbook.</p>
           </footer>
         </div>
       </section>
@@ -185,7 +178,7 @@
     <div id="tutorial-popover" class="tutorial-popover" role="tooltip" hidden>
       <p class="tutorial-popover-term"></p>
       <p class="tutorial-popover-def"></p>
-      <p class="tutorial-popover-hint">Click to open that lesion gallery</p>
+      <p class="tutorial-popover-hint">Click to open that morphology section</p>
     </div>
 
     <div id="morph-popover" class="morph-popover" role="tooltip" hidden>
@@ -197,7 +190,7 @@
     </div>
 
     <script src="diagrams.js"></script>
-    <script src="data/lesions.js?v=scar-bcg"></script>
+    <script src="data/lesions.js?v=example-morph"></script>
     <script src="app.js" defer></script>
     <script src="tutorial.js" defer></script>
   </body>

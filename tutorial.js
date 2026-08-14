@@ -2,13 +2,11 @@
   const DEFINITIONS = {
     primary: {
       title: "Primary morphology",
-      body:
-        "The fundamental lesion type—the morphology you would see if the process were fresh and uncomplicated by secondary change. Choose the single best-fitting primary term when possible.",
+      body: "The fundamental lesion type before secondary change.",
     },
     secondary: {
       title: "Secondary morphology",
-      body:
-        "Surface changes superimposed on the primary lesion like scale, crust, erosion, ulceration, fissuring, excoriation, lichenification, or other changes from healing, trauma, or secondary infection.",
+      body: "Surface change on the primary lesion, such as color, scale, crust, or erosion.",
     },
   };
 

@@ -1,41 +1,43 @@
 window.LESION_DATA = {
   "meta": {
     "title": "Injection Site Reactions: Morphology for Clinicians",
-    "subtitle": "Structured language for injection-site findings — clinical photographs with line-drawing references.",
+    "subtitle": "Structured language for injection-site findings.",
     "stanfordReference": "https://med.stanford.edu/stanfordmedicine25/the25/dermatology.html",
-    "disclaimer": "This resource is for clinical education and standardized description of cutaneous findings. Confirm image use, consent, and copyright with your organization before wider distribution. It does not establish diagnosis or management.",
+    "disclaimer": "For clinical education. Does not establish diagnosis or management. Confirm image use and consent before wider distribution.",
     "atlasPdf": "assets/atlas/Proposed-Gilead-Atlas-Draft-3.pdf"
   },
   "evaluationSections": [
     {
       "id": "morphology-primary",
       "heading": "Primary morphology",
-      "body": "Describe the fundamental lesion type—the morphology you would see if the process were \"fresh\" and uncomplicated by secondary change. Choose the single best-fitting primary term when possible; if multiple types coexist, list them in order of clinical prominence."
+      "href": "#primary",
+      "body": "Name the fundamental lesion type. Prefer one best-fitting term; if several coexist, list them by prominence."
     },
     {
       "id": "morphology-secondary",
       "heading": "Secondary morphology",
-      "body": "Note surface change superimposed on the primary lesion: scale, crust, erosion, ulceration, fissuring, excoriation, lichenification, or other changes from healing, trauma, or secondary infection."
+      "href": "#secondary",
+      "body": "Note superimposed surface change: color, scale, crust, erosion, ulceration, fissure, or lichenification."
     },
     {
       "id": "location",
       "heading": "Location and distribution",
-      "body": "Specify the anatomical region (e.g., left deltoid, right vastus lateralis), laterality, and proximity to the injection landmark. For multiple lesions, describe overall pattern (localized to injection site, satellite, regional, generalized)."
+      "body": "Record site, laterality, and distance from the injection landmark. For multiple lesions, note the overall pattern."
     },
     {
       "id": "size",
       "heading": "Size and confluence",
-      "body": "Measure each lesion in millimeters or centimeters (longest axis; optionally perpendicular axis for irregular plaques). For grouped lesions, describe the span of the involved area and whether papules or vesicles are discrete or confluent."
+      "body": "Measure the longest axis in mm or cm (add the perpendicular axis if irregular). For grouped lesions, give the span of the involved area."
     },
     {
       "id": "borders-color",
       "heading": "Borders, color, and surface",
-      "body": "Comment on demarcation (well vs. poorly demarcated), color (e.g., erythematous, violaceous, hemorrhagic), and surface qualities (shiny, umbilicated, weepy, tender to palpation)."
+      "body": "Note demarcation, color, and surface (shiny, umbilicated, weepy, tender)."
     },
     {
       "id": "symptoms-timing",
-      "heading": "Symptomatic and temporal descriptors",
-      "body": "Record pruritus, pain, burning, functional limitation, and systemic symptoms if relevant. Include onset after exposure (e.g., hours to days), trajectory (improving, stable, worsening), and prior similar episodes."
+      "heading": "Symptoms and timing",
+      "body": "Record pruritus, pain, burning, onset after injection, and whether findings are improving, stable, or worsening."
     }
   ],
   "primaryLesions": [
@@ -148,7 +150,7 @@ window.LESION_DATA = {
     {
       "id": "nodule",
       "term": "Nodule",
-      "definition": "A raised lesion with deeper vertical dimension, often extending into the subcutaneous tissue",
+      "definition": "A raised lesion with deeper bulk, often into subcutis",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -216,7 +218,7 @@ window.LESION_DATA = {
     {
       "id": "abscess",
       "term": "Abscess",
-      "definition": "Large collection of pus greater than 1 cm in diameter. Often deeper and can extend into subcutaneous tissue",
+      "definition": "Collection of pus greater than 1 cm, often extending into subcutis",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -432,7 +434,7 @@ window.LESION_DATA = {
     {
       "id": "color",
       "term": "Color",
-      "definition": "White\nRed\nPurple\nBrown\nYellow\nBlack\nBlue",
+      "definition": "White, red, purple, brown, yellow, black, or blue",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -531,7 +533,7 @@ window.LESION_DATA = {
     {
       "id": "induration",
       "term": "Induration",
-      "definition": "Firmness and thickening of the intradermal space; can only be determined by palpation, similar to a nodule",
+      "definition": "Firm dermal thickening found only by palpation",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -618,7 +620,7 @@ window.LESION_DATA = {
     {
       "id": "atrophy",
       "term": "Atrophy",
-      "definition": "Localized shrinking of the skin that results in paper-thin, wrinkled skin with easily visible vessels",
+      "definition": "Localized thinning that leaves paper-thin, wrinkled skin with visible vessels",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -640,20 +642,20 @@ window.LESION_DATA = {
     {
       "id": "crust",
       "term": "Crust",
-      "definition": "Dried exudate overlying an impaired epidermis. Exudate can be composed of blood, serum, or pus (e.g., impetigo, epidermolysis bullosa).",
+      "definition": "Dried blood, serum, or pus overlying damaged epidermis.",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image28.png",
-          "caption": "Pink papule with surrounding erythema; grouped pustules with surrounding erythema; hemorrhagic vesicle with surrounding erythema; hemorrhagic crust",
+          "url": "assets/atlas/media/image32.png",
+          "caption": "Clustered vesicles with hemorrhagic and serous crust",
           "credit": "",
           "license": ""
         }
       ],
       "gallery": [
         {
-          "url": "assets/atlas/media/image32.png",
-          "caption": "Clustered vesicles interspersed with hemorrhagic and serous crust with erythematous base",
+          "url": "assets/atlas/media/image28.png",
+          "caption": "Hemorrhagic crust evolving over 21 days",
           "credit": "",
           "license": ""
         }
@@ -662,12 +664,12 @@ window.LESION_DATA = {
     {
       "id": "erosion",
       "term": "Erosion",
-      "definition": "Intraepithelial loss of epidermis; usually heals without scarring. Moist, circumscribed, usually depressed lesion due to loss of all or part of the epidermis (e.g., herpes simplex).",
+      "definition": "Partial loss of epidermis; moist and usually depressed; typically heals without scarring.",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
-          "url": "assets/atlas/media/image45.png",
-          "caption": "(A) Dark red well-demarcated plaques; (B) Dark red plaque with peripheral hyperpigmentation. (C) Pink plaque with erosion and crust, (D) REd papules",
+          "url": "assets/atlas/media/erosion-clear.png",
+          "caption": "Erosive plaques at injection sites; dermatoscopic erosion (C)",
           "credit": "",
           "license": ""
         }
@@ -677,7 +679,7 @@ window.LESION_DATA = {
     {
       "id": "scar",
       "term": "Scar",
-      "definition": "Permanent fibrotic skin changes that develop as a consequence of tissue injury in which normal tissue is replaced by fibrous connective tissue at the site of injury to the dermis. Scars may be hypertrophic, atrophic, sclerotic, or hard due to collagen proliferation. Reflects the pattern of healing in the affected area.",
+      "definition": "Permanent fibrotic replacement of injured dermis; may be hypertrophic, atrophic, or sclerotic.",
       "injectionContext": "Use when documenting local findings at or near an injection site, consistent with your institutional adverse-event and photography policies.",
       "images": [
         {
@@ -694,9 +696,9 @@ window.LESION_DATA = {
     "heading": "Suggested one-line template",
     "lines": [
       "Location: [site, laterality, distance from landmark].",
-      "Primary: [morphology], [longest axis] cm × [perpendicular] cm, [well- vs. poorly-demarcated], [color].",
-      "Secondary: [scale / crust / erosion / ulcer / fissure / lichenification as applicable].",
-      "Symptoms / course: [pruritus, pain, fever], onset [time], change since [prior visit]."
+      "Primary: [morphology], [size], [demarcation], [color].",
+      "Secondary: [scale / crust / erosion / ulcer as applicable].",
+      "Symptoms / course: [pruritus, pain], onset [time], change since [prior visit]."
     ]
   }
 };
